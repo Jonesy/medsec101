@@ -1,0 +1,51 @@
+.Banner {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.Banner-img {
+}
+
+.Banner-panel {
+  padding: 25px;
+  position: absolute;
+  z-index: 9;
+  background-color: rgba(white, 0.5);
+
+  &.Banner-panel--events {
+    min-height: 200px;
+    top: 20px;
+    right: 36px;
+  }
+
+  &.Banner-panel--page {
+    bottom: 0;
+  }
+}
+
+.Banner-subtitle {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $brand-primary;
+}
+
+.Banner-title {
+  font-weight: 200;
+  text-transform: uppercase;
+
+  &.Banner-title--page {
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}
+
+.Banner-location-text {
+  color: #b3b3b3;
+}
+
+.Banner-cta-button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}

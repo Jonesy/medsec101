@@ -1,0 +1,41 @@
+$footer-text: rgba(white, 0.5);
+
+.Footer {
+  padding: {
+    top: 60px;
+    bottom: 60px;
+  };
+  text-align: center;
+  color: $footer-text;
+  background-color: $text-color;
+
+  a {
+    color: $footer-text;
+  }
+}
+
+.Footer-container {
+  margin: 0 auto;
+  max-width: 1170px;
+  text-align: left;
+}
+
+.Footer-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #fff;
+
+  &.Footer-title--upcase {
+    text-transform: uppercase;
+  }
+}
+
+.Footer-form {
+  margin-bottom: 1rem;
+}
+
+.Footer-footnote {
+  margin-top: 15px;
+  font-size: 14px;
+}

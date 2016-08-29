@@ -1,0 +1,60 @@
+.About {
+}
+
+.About-section {
+  margin-top: 40px;
+
+  .About &:nth-child(even) {
+    background-color: lighten($body-bg, 10);
+  }
+}
+
+.About-title {
+  height: 50px;
+  display: table;
+
+  > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.Team {
+}
+
+.Team-header {
+  margin-bottom: 20px;
+  text-align: center;
+  overflow: hidden;
+  color: $text-color;
+  background-color: #ecf6f8;
+}
+
+.Team-title {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+
+  > div:first-child {
+    font-weight: 600;
+  }
+}
+
+.Team-social-links {
+  padding: 20px 0;
+  border-top: 1px solid #a2cad6;
+
+  a {
+    font-size: 24px;
+    color: $text-color;
+  }
+}
+
+.Member-logo {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.Member-title {
+  color: $text-color;
+}

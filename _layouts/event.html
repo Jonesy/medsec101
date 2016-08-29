@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<article class="container-fluid">
+
+  <header class="row">
+    <div class="col-sm-3">
+      {% include event-dates.html event=page %}</br>
+      {{page.location}}
+    </div>
+    <div class="col-sm-9">
+      <h3>
+        {{page.description}}
+      </h3>
+    </div>
+  </header>
+
+  <div class="row">
+    <div>
+      <ul id="event-tabs" class="nav nav-pills" role="tablist">
+        {% for tab in page.details %}
+          <li class="nav-item">
+            <a class="nav-link{% if forloop.first %} active{% endif %}"
+               data-toggle="tab"
+               href="#{{tab.title | slugify}}"
+               role="tab"
+               aria-controls="{{tab.title | slugify}}">
+              {{tab.title}}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="tab-content">
+      {% for tab in page.details %}
+        <div
+          id={{tab.title | slugify}}
+          class="tab-pane {% if forloop.first %}active{% endif %}"
+          role="tabpanel">
+          {% if tab.description %}
+            {{tab.description | markdownify}}
+          {% else %}
+            {{tab}}
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</article>

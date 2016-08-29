@@ -1,0 +1,34 @@
+.EventsItem {
+  margin-bottom: 20px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #f3f8fb;
+}
+
+.EventsItem-img {
+  width: 250px;
+  margin-right: 20px;
+  float: left;
+
+  @media (max-width: 544px) {
+    width: 100%;
+    float: none;
+    margin: 0 0 20px;
+  }
+}
+
+.EventsItem-dates {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: $brand-primary;
+}
+
+.EventsItem-title {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.EventsItem-subtitle {
+  font-size: 18px;
+}
