@@ -8,10 +8,11 @@ position: 2
 
 The Med Sec 101 Conference will be held at the Disney Yacht & Beach Club Resort where you and your family can relax, swim, and enjoy easy access to Walt Disney World’s many parks and attractions. Designed in the tradition of a New England-style yacht club, the Disney Yacht & Beach Club Resort sits on Stormalong Bay—a 3-acre waterpark featuring pools, lagoons, waterslides, a lazy river, and a life-size shipwreck for young pirates to explore. The hotel is walking distance to Epcot and a mere boat-ride from Disney’s Hollywood Studios, placing you right in the heart of Disney’s premier attractions. 
  
-
-> Disney Yacht & Beach Club Resort
+<blockquote class="blockquote">
+Disney Yacht & Beach Club Resort
 1750 Epcot Resorts Blvd 
 Lake Buena Vista, FL 32830
+</blockquote>
 
 Image: Link to map?
 
