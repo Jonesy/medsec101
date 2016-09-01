@@ -1,0 +1,115 @@
+h6 { font-weight: 600; text-transform: uppercase; color: #be1414; }
+
+a.ss-icon { text-decoration: none; }
+
+body { font-family: "sofia-pro", "Helvetica Neue", Helvetica, Arial, sans-serif; text-align: center; }
+
+.btn.btn-primary { border-radius: 0; border: none; background-color: #be1414; }
+
+/** Clearfix */
+/** Icons */
+.icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
+.icon > svg path { fill: #828282; }
+
+/** Site header */
+body { -webkit-font-smoothing: antialiased; }
+
+.btn { text-transform: uppercase; }
+
+.Container { margin: 0 auto; max-width: 1170px; text-align: left; background-color: #fff; }
+
+.Header { padding-top: 46px; padding-bottom: 26px; }
+.Header a { text-decoration: none; color: #666666; transition: color 0.25s ease-in; }
+.Header a:hover { color: #be1414; }
+
+.Header-logo { width: 300px; height: 0px !important; padding-top: 62px; display: inline-block; overflow: hidden; background: url("/images/logo.png") no-repeat; background-size: 300px; }
+
+.Header-social-links { float: right; margin-bottom: 6px; }
+.Header-social-links a { font-size: 24px; }
+
+.Header-nav { float: right; margin-bottom: 0; font-size: 18px; }
+
+.Header-nav-item { margin-left: 20px; }
+.Header-nav-item:first-child { margin-left: 0; }
+.Header-nav-item a.active { color: #be1414; }
+
+.Banner { margin-bottom: 20px; position: relative; }
+
+.Banner-panel { padding: 25px; position: absolute; z-index: 9; background-color: rgba(255, 255, 255, 0.5); }
+.Banner-panel.Banner-panel--events { min-height: 200px; top: 20px; right: 36px; }
+.Banner-panel.Banner-panel--page { bottom: 0; }
+
+.Banner-subtitle { font-weight: 600; text-transform: uppercase; color: #be1414; }
+
+.Banner-title { font-weight: 200; text-transform: uppercase; }
+.Banner-title.Banner-title--page { font-size: 36px; font-weight: 500; text-transform: uppercase; }
+
+.Banner-location-text { color: #b3b3b3; }
+
+.Banner-cta-button { position: absolute; right: 20px; bottom: 20px; }
+
+.Footer { padding-top: 60px; padding-bottom: 60px; text-align: center; color: rgba(255, 255, 255, 0.5); background-color: #464646; }
+.Footer a { color: rgba(255, 255, 255, 0.5); }
+
+.Footer-container { margin: 0 auto; max-width: 1170px; text-align: left; }
+
+.Footer-title { font-size: 18px; font-weight: 600; line-height: 32px; color: #fff; }
+.Footer-title.Footer-title--upcase { text-transform: uppercase; }
+
+.Footer-form { margin-bottom: 1rem; }
+
+.Footer-footnote { margin-top: 15px; font-size: 14px; }
+
+.Home-content { margin: 24px 0; }
+@media (max-width: 544px) { .Home-content { margin-right: 0; margin-left: 0; } }
+
+.Callout { height: 100%; }
+
+.Callout-table { display: block; height: auto; width: auto; }
+.Callout-table > div { display: block; }
+@media (min-width: 768px) { .Callout-table { display: table; table-layout: fixed; height: 100%; width: 100%; }
+  .Callout-table > div { display: table-cell; float: none; height: 100%; } }
+
+.Callout-title, .Callout-body { padding: 8px 20px; }
+
+.Callout-title { margin-bottom: 1px; position: relative; font-size: 18px; font-weight: 600; line-height: 24px; color: #be1414; }
+
+.Callout-title-link { margin-top: -6px; float: right; font-weight: 500; text-transform: uppercase; color: #666; }
+.Callout-title-link.ss-icon { margin-top: 4px; font-size: 24px; }
+
+.Callout-subtitle { font-weight: 600; color: #333300; }
+
+.Callout-body.Callout-body--image { padding: 0; position: relative; margin-top: -1px; }
+
+.Callout-publication-item { color: #464646; }
+.Callout-publication-item:hover { text-decoration: none; color: #be1414; }
+.Callout-publication-item:hover > * { color: #be1414; }
+
+.About-section { margin-top: 40px; }
+.About .About-section:nth-child(even) { background-color: white; }
+
+.About-title { height: 50px; display: table; }
+.About-title > * { display: table-cell; vertical-align: middle; }
+
+.Team-header { margin-bottom: 20px; text-align: center; overflow: hidden; color: #464646; background-color: #ecf6f8; }
+
+.Team-title { padding: 10px; font-size: 16px; line-height: 22px; }
+.Team-title > div:first-child { font-weight: 600; }
+
+.Team-social-links { padding: 20px 0; border-top: 1px solid #a2cad6; }
+.Team-social-links a { font-size: 24px; color: #464646; }
+
+.Member-logo { margin-bottom: 20px; display: inline-block; }
+
+.Member-title { color: #464646; }
+
+.EventsItem { margin-bottom: 20px; padding: 20px; overflow: hidden; background-color: #f3f8fb; }
+
+.EventsItem-img { width: 250px; margin-right: 20px; float: left; }
+@media (max-width: 544px) { .EventsItem-img { width: 100%; float: none; margin: 0 0 20px; } }
+
+.EventsItem-dates { margin-bottom: 10px; font-size: 16px; font-weight: 600; color: #be1414; }
+
+.EventsItem-title { font-weight: 600; text-transform: uppercase; }
+
+.EventsItem-subtitle { font-size: 18px; }

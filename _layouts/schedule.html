@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="container-fluid">
+  <section class="row">
+    <div class="col-sm-12">
+      {{content}}
+    </div>
+  </section>
+  <section class="row">
+    {% for presentation in site.presentations %}
+      {% assign url_parts = presentation.url | split: '/' %}
+      {% if url_parts.size == 3 %}
+        <header class="col-sm-12">
+          <h3>{{presentation.title}}</h3>
+        </header>
+      {% else %}
+        <div class="col-sm-12">
+          <div class="row">
+            <div class="col-sm-3">
+              {{presentation.time}}
+            </div>
+            <div class="col-sm-9">
+              {{presentation.title}}
+
+              {% if presentation.content %}
+                {% if presentation.speakers %}
+                  <h5>
+                    Speaker: {{presentation.speakers}}
+                  </h5>
+                {% endif %}
+                {{ presentation.content | markdownify }}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </section>
+</div>
