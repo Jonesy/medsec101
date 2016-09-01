@@ -5,6 +5,12 @@ collections:
   posts:
     title: Posts
     output: true
+  presentations:
+    title: Presentations
+    output: false
+  speakers:
+    title: Speakers
+    output: false
   uploads:
     title: Uploads
     output: true
