@@ -7,7 +7,7 @@ collections:
     output: true
   presentations:
     title: Presentations
-    output: true
+    output: false
   speakers:
     title: Speakers
     output: false
