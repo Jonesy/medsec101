@@ -3,45 +3,23 @@
     {% if include.url == '/' %}
       {% assign banner_height = 510 %}
       <div class="col-md-6 col-md-offset-6 Banner-panel Banner-panel--events">
-        <h6 class="Banner-subtitle">Upcoming Event</h6>
-
-        {% capture now_unix %}{{'now' | date:"%s" | plus:0}}{% endcapture %}
-        {% assign all_events = site.events | sort:"start_date" %}
-
-        {% for event in all_events %}
-          {% assign now_unix = now_unix | plus:0 %}
-          {% capture event_start %}
-            {{event.start_date | date:"%s"}}
-          {% endcapture %}
-          {% assign event_start = event_start | plus:0 %}
-          {% if event_start < now_unix  %}
-            {% continue %}
-          {% else %}
-
-            <h1 class="Banner-title">
-              {{event.title}}<br/>
-              {% include event-dates.html event=event %}
-            </h1>
-            <h4 class="Banner-location-text">{{event.location}}</h4>
-            {% include
-              button.html
-              label="Read More"
-              href=event.url
-              class="Banner-cta-button"
-            %}
-            {% break %}
-          {% endif %}
-        {% endfor %}
+        <h6 class="Banner-subtitle">Jan 16 & 17, 2017, Orlando, Florida</h6>
+        <h1 class="Banner-title">Archimedes MedSec 101 Conference</h1>
+        <h4 class="Banner-location-text">Improve your medical device security with advice from the experts</h4>
+        {% include
+          button.html
+          label="Read More"
+          href="/schedule"
+          class="Banner-cta-button"
+        %}
       </div>
     {% else %}
       {% assign banner_height = 270 %}
-      {% if page.banner_text %}
-        <div class="Banner-panel Banner-panel--page col-md-5 col-md-offset-1">
-          <h1 class="Banner-title Banner-title--page">
-            {{page.banner_text}}
-          </h1>
-        </div>
-      {% endif %}
+      <div class="Banner-panel Banner-panel--page col-md-5 col-md-offset-1">
+        <h1 class="Banner-title Banner-title--page">
+          {{page.title}}
+        </h1>
+      </div>
     {% endif %}
 
     <div class="col-sm-12">

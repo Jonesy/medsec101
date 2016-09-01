@@ -3,16 +3,21 @@ body {
   text-align: center;
 }
 
+.btn.btn-primary {
+  border-radius: 0;
+  border: none;
+  background-color: $brand-primary;
+}
+
 /**
  * Clearfix
  */
 %clearfix {
-
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 
