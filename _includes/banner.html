@@ -1,17 +1,21 @@
-<div class="container-fluid Banner">
-  <div class="row">
+<div class="container-fluid">
+  <div class="Banner">
+    <div class="Banner-panel Banner-panel--image">
+      <img src="/images/banner.jpg" class="img-fluid Banner-img">
+    </div>
     {% if include.url == '/' %}
       {% assign banner_height = 510 %}
-      <div class="col-md-6 col-md-offset-6 Banner-panel Banner-panel--events">
-        <h6 class="Banner-subtitle">Jan 16 & 17, 2017, Orlando, Florida</h6>
-        <h1 class="Banner-title">Archimedes MedSec 101 Conference</h1>
-        <h4 class="Banner-location-text">Improve your medical device security with advice from the experts</h4>
-        {% include
-          button.html
-          label="Read More"
-          href="/schedule"
-          class="Banner-cta-button"
-        %}
+      <div class="Banner-panel Banner-panel--text">
+        <div>
+          <h1 class="Banner-title">Archimedes Medical Security 101 Conference</h1>
+          <h4 class="Banner-location-text">Improve your medical device security with advice from the experts</h4>
+          {% include
+            button.html
+            label="Register Now"
+            href="/schedule"
+            class="Banner-cta-button"
+          %}
+        </div>
       </div>
     {% else %}
       {% assign banner_height = 270 %}
@@ -21,10 +25,5 @@
         </h1>
       </div>
     {% endif %}
-
-    <div class="col-sm-12">
-      <img src="http://placehold.it/1170x{{banner_height}}" class="img-fluid
-    Banner-img">
-    </div>
   </div>
 </div>
