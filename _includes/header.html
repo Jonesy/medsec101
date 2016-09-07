@@ -19,12 +19,16 @@
     <nav class="col-sm-8 hidden-sm-down">
       <div class="clearfix">
         <h6 class="text-xs-right Banner-subtitle">
-          Jan 16 & 17, 2017, Orlando, Florida
+          Jan 16 & 17, 2017, Lake Buena Vista, FL
+          <a href="/register" class="btn btn-primary btn-sm">
+            Register now
+          </a>
         </h6>
       </div>
       <div class="clearfix">
         <ul class="list-inline Header-nav">
-          {% assign pages = site.pages | sort: 'position' %}
+          {% assign pages = site.pages | sort: 'position' | where_exp:"page",
+"page.title != 'Register'" %}
           {% for site_page in pages %}
             {% if site_page.title %}
               <li class="list-inline-item Header-nav-item">

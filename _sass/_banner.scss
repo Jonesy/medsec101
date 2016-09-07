@@ -33,6 +33,11 @@
   font-weight: 600;
   text-transform: uppercase;
   color: $brand-primary;
+
+  a {
+    margin: -4px 0 0 10px;
+    color: white;
+  }
 }
 
 .Banner-title {
@@ -47,7 +52,7 @@
 }
 
 .Banner-location-text {
-  color: #b3b3b3;
+  color: #137b9b;
 }
 
 .Banner-cta-button {

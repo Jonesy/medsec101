@@ -1,5 +1,12 @@
 .Home {}
 
+.Home-register {
+  margin: 0 0 40px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: lighten(#d5e8ed, 5%);
+}
+
 .Home-content {
   margin: 24px 0;
 
@@ -8,5 +15,30 @@
       right: 0;
       left: 0;
     }
+  }
+}
+
+.Home-section {
+  margin-bottom: 40px;
+}
+
+.Home-column {
+  margin-bottom: 30px;
+}
+
+.Home-title {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  color: #137b9b;
+  border-bottom: 1px solid #ccc;
+}
+
+.Home-section-img {
+  max-width: 300px;
+  margin: 0 20px 0 0;
+
+  @media (max-width: 544px) {
+    max-width: 100%;
+    margin: 0 0 20px;
   }
 }

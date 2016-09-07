@@ -14,6 +14,8 @@ body { font-family: "sofia-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 /** Site header */
 body { -webkit-font-smoothing: antialiased; }
 
+a, a:hover { color: #be1414; }
+
 .btn { text-transform: uppercase; }
 
 .Container { margin: 0 auto; max-width: 1170px; text-align: left; background-color: #fff; }
@@ -22,7 +24,7 @@ body { -webkit-font-smoothing: antialiased; }
 .Header a { text-decoration: none; color: #666666; transition: color 0.25s ease-in; }
 .Header a:hover { color: #be1414; }
 
-.Header-logo { width: 300px; height: 0px !important; padding-top: 62px; display: inline-block; overflow: hidden; background: url("/images/logo.png") no-repeat; background-size: 300px; }
+.Header-logo { width: 300px; height: 0px !important; padding-top: 69px; display: inline-block; overflow: hidden; background: url("/images/logo.png") no-repeat; background-size: 300px; }
 
 .Header-social-links { float: right; margin-bottom: 6px; }
 .Header-social-links a { font-size: 24px; }
@@ -43,11 +45,12 @@ body { -webkit-font-smoothing: antialiased; }
 .Banner-img { margin: 0; }
 
 .Banner-subtitle { font-weight: 600; text-transform: uppercase; color: #be1414; }
+.Banner-subtitle a { margin: -4px 0 0 10px; color: white; }
 
 .Banner-title { font-weight: 200; text-transform: uppercase; }
 .Banner-title.Banner-title--page { font-size: 36px; font-weight: 500; text-transform: uppercase; }
 
-.Banner-location-text { color: #b3b3b3; }
+.Banner-location-text { color: #137b9b; }
 
 .Banner-cta-button { margin-top: 14px; }
 
@@ -63,8 +66,19 @@ body { -webkit-font-smoothing: antialiased; }
 
 .Footer-footnote { margin-top: 15px; font-size: 14px; }
 
+.Home-register { margin: 0 0 40px; padding: 20px; overflow: hidden; background-color: #e7f2f5; }
+
 .Home-content { margin: 24px 0; }
 @media (max-width: 544px) { .Home-content { margin-right: 0; margin-left: 0; } }
+
+.Home-section { margin-bottom: 40px; }
+
+.Home-column { margin-bottom: 30px; }
+
+.Home-title { margin-bottom: 15px; padding-bottom: 15px; color: #137b9b; border-bottom: 1px solid #ccc; }
+
+.Home-section-img { max-width: 300px; margin: 0 20px 0 0; }
+@media (max-width: 544px) { .Home-section-img { max-width: 100%; margin: 0 0 20px; } }
 
 .Callout { height: 100%; }
 

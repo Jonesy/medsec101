@@ -5,6 +5,13 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+a {
+  &,
+  &:hover {
+    color: $brand-primary;
+  }
+}
+
 .btn {
   text-transform: uppercase;
 }
