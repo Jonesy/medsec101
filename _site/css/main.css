@@ -29,6 +29,12 @@ a, a:hover { color: #be1414; }
 .Header-social-links { float: right; margin-bottom: 6px; }
 .Header-social-links a { font-size: 24px; }
 
+.Header-menu { width: 60px; float: right; }
+
+.Header-subtitle { margin-top: 10px; font-weight: 600; text-transform: uppercase; color: #be1414; }
+.Header-subtitle a { margin: -4px 0 0 10px; color: white; }
+@media (max-width: 544px) { .Header-subtitle { line-height: 24px; } }
+
 .Header-nav { float: right; margin-bottom: 0; font-size: 18px; }
 
 .Header-nav-item { margin-left: 20px; }
@@ -38,9 +44,12 @@ a, a:hover { color: #be1414; }
 .Banner { width: 100%; height: 100%; margin: 0 0 20px; display: table; }
 
 .Banner-panel { height: 100%; display: table-cell; vertical-align: top; float: none; }
-.Banner-panel.Banner-panel--image { width: 75%; }
+.Banner-panel.Banner-panel--image { width: 75%; background: url("/images/banner.jpg") no-repeat top left; background-size: cover; }
+@media (max-width: 992px) { .Banner-panel.Banner-panel--image { background-image: none; } }
 .Banner-panel.Banner-panel--text { width: 25%; background-color: #d5e8ed; }
 .Banner-panel.Banner-panel--text > div { padding: 25px; }
+@media (max-width: 992px) { .Banner-panel { height: auto; display: block; }
+  .Banner-panel, .Banner-panel.Banner-panel--text, .Banner-panel.Banner-panel--image { width: 100%; } }
 
 .Banner-img { margin: 0; }
 
@@ -50,7 +59,7 @@ a, a:hover { color: #be1414; }
 .Banner-title { font-weight: 200; text-transform: uppercase; }
 .Banner-title.Banner-title--page { font-size: 36px; font-weight: 500; text-transform: uppercase; }
 
-.Banner-location-text { color: #137b9b; }
+.Banner-location-text { color: #58a8b7; }
 
 .Banner-cta-button { margin-top: 14px; }
 

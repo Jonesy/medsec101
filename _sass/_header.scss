@@ -37,6 +37,26 @@ $link-color: #666666;
   }
 }
 
+.Header-menu {
+  width: 60px;
+  float: right;
+}
+
+.Header-subtitle {
+  margin-top: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $brand-primary;
+
+  a {
+    margin: -4px 0 0 10px;
+    color: white;
+  }
+
+  @media (max-width: 544px) {
+    line-height: 24px;
+  }
+}
 .Header-nav {
   float: right;
   margin-bottom: 0;

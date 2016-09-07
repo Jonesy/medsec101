@@ -13,6 +13,12 @@
 
   &.Banner-panel--image {
     width: 75%;
+    background: url('/images/banner.jpg') no-repeat top left;
+    background-size: cover;
+
+    @media (max-width: 992px) {
+      background-image: none;
+    }
   }
 
   &.Banner-panel--text {
@@ -21,6 +27,17 @@
 
     > div {
       padding: 25px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    height: auto;
+    display: block;
+
+    &,
+    &.Banner-panel--text,
+    &.Banner-panel--image {
+      width: 100%;
     }
   }
 }
@@ -52,7 +69,7 @@
 }
 
 .Banner-location-text {
-  color: #137b9b;
+  color: darken(#d5e9ed, 35%);
 }
 
 .Banner-cta-button {
