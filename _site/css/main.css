@@ -59,7 +59,7 @@ a, a:hover { color: #be1414; }
 .Banner-title { font-weight: 200; text-transform: uppercase; }
 .Banner-title.Banner-title--page { font-size: 36px; font-weight: 500; text-transform: uppercase; }
 
-.Banner-location-text { color: #58a8b7; }
+.Banner-location-text { letter-spacing: 1px; color: #58a8b7; }
 
 .Banner-cta-button { margin-top: 14px; }
 
