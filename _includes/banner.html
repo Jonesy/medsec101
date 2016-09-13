@@ -1,29 +1,31 @@
+{% if include.url == '/' %}
+  {% assign banner_image = 'banner.jpg' %}
+{% else %}
+  {% assign banner_image = 'banner-page.jpg' %}
+{% endif %}
+
 <div class="container-fluid">
   <div class="Banner">
-    <div class="Banner-panel Banner-panel--image">
-      <img src="/images/banner.jpg" class="img-fluid Banner-img hidden-lg-up">
+    <div class="Banner-panel Banner-panel--image" style="background-image:
+      url(/images/{{banner_image}})">
+      <img src="/images/{{banner_image}}" class="img-fluid Banner-img hidden-lg-up">
     </div>
-    {% if include.url == '/' %}
-      {% assign banner_height = 510 %}
-      <div class="Banner-panel Banner-panel--text">
-        <div>
+    <div class="Banner-panel Banner-panel--text">
+      <div>
+        {% if include.url == '/' %}
           <h1 class="Banner-title">{{site.title}}</h1>
-          <h4 class="Banner-location-text">Improve your medical device security with advice from the experts</h4>
+          <h4 class="Banner-subtitle">Improve your medical device security with advice from the experts</h4>
           {% include
             button.html
             label="Register Now"
             href="/schedule"
             class="Banner-cta-button"
           %}
+        {% else %}
+          <h1 class="Banner-title">{{page.title}}</h1>
+          <h4 class="Banner-subtitle">{{page.subtitle}}</h4>
+        {% endif %}
         </div>
       </div>
-    {% else %}
-      {% assign banner_height = 270 %}
-      <div class="Banner-panel Banner-panel--page col-md-5 col-md-offset-1">
-        <h1 class="Banner-title Banner-title--page">
-          {{page.title}}
-        </h1>
-      </div>
-    {% endif %}
   </div>
 </div>

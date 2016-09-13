@@ -1,8 +1,13 @@
 .Banner {
   width: 100%;
   height: 100%;
+  min-height: 396px;
   margin: 0 0 20px;
   display: table;
+
+  @media (max-width: 990px) {
+    min-height: inherit;
+  }
 }
 
 .Banner-panel {
@@ -46,17 +51,6 @@
   margin: 0;
 }
 
-.Banner-subtitle {
-  font-weight: 600;
-  text-transform: uppercase;
-  color: $brand-primary;
-
-  a {
-    margin: -4px 0 0 10px;
-    color: white;
-  }
-}
-
 .Banner-title {
   font-weight: 200;
   text-transform: uppercase;
@@ -68,7 +62,7 @@
   }
 }
 
-.Banner-location-text {
+.Banner-subtitle {
   letter-spacing: 1px;
   color: darken(#d5e9ed, 35%);
 }
