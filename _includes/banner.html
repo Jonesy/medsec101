@@ -24,6 +24,14 @@
         {% else %}
           <h1 class="Banner-title">{{page.title}}</h1>
           <h4 class="Banner-subtitle">{{page.subtitle}}</h4>
+          {% if page.cta_link %}
+            {% include
+              button.html
+              label=page.cta_text
+              href=page.cta_link
+              class="Banner-cta-button"
+            %}
+          {% endif %}
         {% endif %}
         </div>
       </div>
