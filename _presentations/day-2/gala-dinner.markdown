@@ -2,6 +2,7 @@
 title: Gala Dinner
 date: 2016-09-21 22:33:00 Z
 position: 10
+day: 2
 time: 6:15 - 8:30 pm
 ---
 

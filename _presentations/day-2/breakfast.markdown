@@ -2,6 +2,7 @@
 title: Meet the Experts Breakfast
 date: 2016-09-01 17:46:00 Z
 position: 0
+day: 2
 time: 7:30 - 8:30  am
 ---
 

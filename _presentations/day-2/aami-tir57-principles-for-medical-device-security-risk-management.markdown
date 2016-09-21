@@ -3,6 +3,7 @@ title: 'AAMI TIR57: Principles for Medical Device Security—Risk Management'
 date: 2016-09-21 22:31:00 Z
 position: 5
 time: 11:00 am - 12:00 pm
+day: 2
 speaker: Geoffrey Pascoe
 ---
 

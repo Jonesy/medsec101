@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% assign presentations = site.presentations | sort: 'position' %}
+{% assign days = site.presentations | sort: 'position' | where: 'is_day', 'true' %}
 
 <div class="container-fluid">
   <section class="row">
@@ -9,33 +11,46 @@ layout: default
     </div>
   </section>
   <section class="row">
-    {% for presentation in site.presentations %}
-      {% assign url_parts = presentation.url | split: '/' %}
-      {% if url_parts.size == 3 %}
+    {% for day in days %}
+      {% assign day_index = forloop.index %}
+      {% assign blocks = presentations | where: 'day', day_index %}
+      <div>{{presentation.relative_directory}}</div>
         <header class="col-sm-12">
-          <h3>{{presentation.title}}</h3>
-        </header>
-      {% else %}
-        <div class="col-sm-12">
           <div class="row">
-            <div class="col-sm-3">
-              {{presentation.time}}
+            <div class="col-xs-3">
+              <h6>
+                {{day.presentation_date | date_to_string }}
+              </h6>
             </div>
-            <div class="col-sm-9">
-              {{presentation.title}}
-
-              {% if presentation.content %}
-                {% if presentation.speakers %}
-                  <h5>
-                    Speaker: {{presentation.speakers}}
-                  </h5>
-                {% endif %}
-                {{ presentation.content | markdownify }}
-              {% endif %}
+            <div class="col-xs-9">
+              <h6>{{day.title}}</h6>
             </div>
           </div>
-        </div>
-      {% endif %}
+        </header>
+        {{day}}
+
+        {% for presentation in blocks %}
+          <div class="col-sm-12">
+            <div class="row">
+              <div class="col-sm-3">
+                {{presentation.time}}
+              </div>
+              <div class="col-sm-9">
+                {{presentation.title}}
+
+                {% if presentation.content %}
+                  {% if presentation.speakers %}
+                    <h5>
+                      Speaker: {{presentation.speakers}}
+                    </h5>
+                  {% endif %}
+                  {{ presentation.content | markdownify }}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+
     {% endfor %}
   </section>
 </div>
