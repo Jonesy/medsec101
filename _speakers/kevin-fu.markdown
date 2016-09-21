@@ -1,7 +1,7 @@
 ---
 title: Kevin Fu, Ph.D
 date: 2016-09-01 15:59:00 Z
-position: 5
+position: 4
 credentials: |-
   Associate Professor
   Computer Science & Engineering

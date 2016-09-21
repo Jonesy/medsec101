@@ -1,7 +1,7 @@
 ---
 title: Bill Ender
 date: 2016-09-21 03:55:00 Z
-position: 4
+position: 3
 credentials: "Founder  \nRightBrainCISO"
 ---
 

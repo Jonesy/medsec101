@@ -1,7 +1,7 @@
 ---
 title: Suzanne B. Schwartz, MD, MBA
 date: 2016-09-01 15:55:00 Z
-position: 1
+position: 0
 credentials: |-
   Associate Director for Science and Strategic Partnerships
   Center for Devices and Radiological Health
