@@ -1,9 +1,8 @@
 ---
-title: Session 1
+title: Check-in & Breakfast
 date: 2016-09-01 17:48:00 Z
 position: 1
-time: 10:30 - 11:00 am
+time: 9:00 - 9:30 am
 speakers: Chantal Worzala
 ---
 
-Brief description TBD
