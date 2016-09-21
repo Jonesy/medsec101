@@ -1,7 +1,7 @@
 ---
 title: Billy Rios, CISSP
 date: 2016-09-21 04:08:00 Z
-position: 10
+position: 11
 credentials: |-
   Founder
   WhiteScope, LLC
