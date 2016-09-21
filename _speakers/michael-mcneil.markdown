@@ -2,9 +2,7 @@
 title: Michael McNeil, MBA
 date: 2016-09-21 04:08:00 Z
 position: 10
-credentials: |-
-  Global Product Security & Services Officer
-  Philips Healthcare
+credentials_text: "Global Product Security & Services Officer  \nPhilips Healthcare"
 ---
 
 Michael C. McNeil is the Global Product Security & Services Officer at Philips Healthcare where he 
