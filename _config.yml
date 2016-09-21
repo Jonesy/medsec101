@@ -30,7 +30,7 @@ defaults:
     path: ''
     type: speakers
   values:
-    credentials: ''
+    credentials_text: ''
     layout: speakers
 permalink: pretty
 description: 'A cross-disciplinary research initiative on medical device security,

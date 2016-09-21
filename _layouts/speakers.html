@@ -2,4 +2,29 @@
 layout: default
 ---
 
-Hello
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      {{content}}
+    </div>
+  </div>
+  <div class="row">
+    {% assign speakers = site.speakers | sort: 'position' %}
+    {% for speaker in speakers %}
+      {% assign clear_row = forloop.index | modulo: 2 %}
+      <div class="col-md-6 col-lg-6">
+        <img src="http://placehold.it/1110x600" class="img-fluid">
+        <h6>
+          {{ speaker.title }}
+        </h6>
+        <p>
+          {{ speaker.credentials_text | markdownify }}
+        </p>
+        {{ speaker.content | markdownify }}
+      </div>
+      {% if clear_row == 0 %}
+      <div class="clearfix"></div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
