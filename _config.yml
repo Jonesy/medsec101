@@ -26,6 +26,12 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: speakers
+  values:
+    credentials: ''
+    layout: speakers
 permalink: pretty
 description: |
   A cross-disciplinary research initiative on medical device security, privacy, safety, and effectiveness
