@@ -1,0 +1,22 @@
+.Speaker {
+  margin-bottom: 20px;
+}
+
+.Speaker-header {
+  margin-bottom: 20px;
+  text-align: center;
+  overflow: hidden;
+  color: $text-color;
+  background-color: #ecf6f8;
+}
+
+.Speaker-title {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+
+  > div:first-child {
+    font-weight: 600;
+  }
+}
+

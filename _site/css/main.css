@@ -137,3 +137,10 @@ a, a:hover { color: #be1414; }
 .EventsItem-title { font-weight: 600; text-transform: uppercase; }
 
 .EventsItem-subtitle { font-size: 18px; }
+
+.Speaker { margin-bottom: 20px; }
+
+.Speaker-header { margin-bottom: 20px; text-align: center; overflow: hidden; color: #464646; background-color: #ecf6f8; }
+
+.Speaker-title { padding: 10px; font-size: 16px; line-height: 22px; }
+.Speaker-title > div:first-child { font-weight: 600; }
