@@ -1,8 +1,8 @@
 ---
-title: VIP / Member Dinner
+title: Registration
 date: 2016-09-01 16:08:00 Z
 position: 0
-time: 6:30 - TK:00 pm
+time: 4:00 - 6:00 pm
 ---
 
 Description TBD
