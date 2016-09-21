@@ -5,4 +5,3 @@ position: 0
 time: 4:00 - 6:00 pm
 ---
 
-Description TBD
