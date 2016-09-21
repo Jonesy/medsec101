@@ -1,6 +1,7 @@
 ---
 title: Keynote
 date: 2016-09-21 22:29:00 Z
+position: 3
 time: 9:30 - 10:30 am
 speaker: Suzanne B. Schwartz, MD, MBA
 ---
