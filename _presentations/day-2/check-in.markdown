@@ -5,5 +5,6 @@ position: 1
 time: 9:00 - 9:30 am
 day: 2
 speakers: Chantal Worzala
+is_break: true
 ---
 
