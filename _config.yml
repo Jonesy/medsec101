@@ -33,8 +33,10 @@ defaults:
     credentials: ''
     layout: speakers
 permalink: pretty
-description: |
-  A cross-disciplinary research initiative on medical device security, privacy, safety, and effectiveness
+description: 'A cross-disciplinary research initiative on medical device security,
+  privacy, safety, and effectiveness
+
+'
 twitter_username: ARC_MedSec
 github_username: Jonesy
 linkedin_username: https://linkedin.com/
