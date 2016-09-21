@@ -1,7 +1,7 @@
 ---
 title: Dr. Chantal Worzala, Ph.D, M.P.A
 date: 2016-09-01 15:58:00 Z
-position: 11
+position: 10
 credentials: |-
   Director of Policy
   American Hospital Association
