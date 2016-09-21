@@ -2,7 +2,7 @@
 title: Dale Nordenberg, MD
 date: 2016-09-01 15:55:00 Z
 position: 7
-credentials: "Executive Director \nMedical Device Innovation, Safety, and Security
+credentials_text: "Executive Director  \nMedical Device Innovation, Safety, and Security
   Consortium (MDISS)"
 ---
 
