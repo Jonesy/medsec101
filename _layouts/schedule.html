@@ -4,7 +4,7 @@ layout: default
 
 {% assign speakers = site.speakers %}
 {% assign presentations = site.presentations | sort: 'position' %}
-{% assign days = site.presentations | sort: 'position' | where: 'is_day', 'true' %}
+{% assign days = site.presentations | sort: 'position' | where: 'is_day', true %}
 
 <div class="container-fluid">
   <section class="row">
@@ -45,7 +45,7 @@ layout: default
                 {{presentation.time}}
               </div>
               <div class="col-sm-2">
-                {% if speaker %}
+                {% if presentation.speaker != '' and presentation.is_break == false %}
                   <img src="{{speaker.speaker_image}}" class="img-fluid">
                 {% endif %}
               </div>
@@ -54,7 +54,7 @@ layout: default
                   presentation.is_break %}Schedule-presentation-title--break{% endif %}">
                   {{presentation.title}}
                 </h5>
-                {% if speaker %}
+                {% if presentation.speaker != '' and presentation.is_break == false %}
                 <h6>
                   {{speaker.title}}
                 </h6>
