@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% assign speakers = site.speakers %}
 {% assign presentations = site.presentations | sort: 'position' %}
 {% assign days = site.presentations | sort: 'position' | where: 'is_day', 'true' %}
