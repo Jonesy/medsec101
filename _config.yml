@@ -31,6 +31,7 @@ defaults:
     type: speakers
   values:
     credentials_text: ''
+    speaker_image: ''
     layout: speakers
 permalink: pretty
 description: 'A cross-disciplinary research initiative on medical device security,
