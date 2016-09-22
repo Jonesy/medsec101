@@ -1,5 +1,5 @@
 ---
-title: Session Title TBD 2
+title: Session Title TBD
 date: 2016-09-22 19:38:00 Z
 speaker: Jack Kufahl
 time: 2:00 - 3:00 pm
