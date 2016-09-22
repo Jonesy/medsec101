@@ -5,6 +5,7 @@ position: 1
 subtitle: Join us for two full days of educational talks and panel discussions on
   medical device security best practices
 banner_title: Schedule of Events
+banner_image: "/uploads/banner-schedule.jpg"
 layout: schedule
 ---
 
