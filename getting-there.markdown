@@ -6,6 +6,7 @@ subtitle: Join us at Disney’s Yacht & Beach Club Resorts
 cta_link: https://aws.passkey.com/event/16140533/owner/70576/home
 cta_text: Book Your Room
 banner_title: Getting There
+banner_image: "/uploads/banner-page.jpg"
 ---
 
 <div class="row">
