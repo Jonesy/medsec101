@@ -8,7 +8,7 @@ banner_image: "/uploads/banner-resources.jpg"
 ---
 
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-6 Content">
     <h4 class="Home-title">About Our Events</h4>
     <p>
     Archimedes workshops and conferences bring together experts from industry, academia, and government who are passionate about our mission to improve medical device security. Our events focus on educating key stakeholders in the medical device and healthcare industries on current cybersecurity threats as well as solutions for preventing and resolving them.
@@ -17,7 +17,7 @@ banner_image: "/uploads/banner-resources.jpg"
     Our events do not focus on the latest industry buzz or trendy new product development. We want our attendees to feel that they can speak freely about their cybersecurity issues with trusted and respected professionals who can help them establish best practices for improving medical device security in their products and organizations. At Archimedes, we provide a forum for industry leaders to gain a strong situational and operational awareness of emerging issues pertaining to cybersecurity and then we arm them with the knowledge to better protect both their clients and patients.
     </p>
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-6 Content">
     <h4 class="Home-title">How to Submit a Proposal</h4>
     <p>
     We are extremely selective in whom we invite to speak at Archimedes workshops and conferences. Our members recognize and appreciate that we maintain high educational standards. Please note that we do not accept sales pitches or marketing presentations for plenary talks.
@@ -43,7 +43,7 @@ banner_image: "/uploads/banner-resources.jpg"
 </div>
 
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-6 Content">
     <h4 class="Home-title">Speaker Benefits </h4>
     <p>
     The greatest benefit of speaking at an Archimedes event is the opportunity to share and network with other industry thought leaders and decision makers. Additional benefits include:
@@ -63,7 +63,7 @@ banner_image: "/uploads/banner-resources.jpg"
       </li>
     </ul>
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-6 Content">
     <h4 class="Home-title">Requirements & Guidelines</h4>
     <p>
     All speaker presentations are scheduled to last either 60 or 90 mins. As a selected speaker we request that you:
@@ -78,7 +78,7 @@ banner_image: "/uploads/banner-resources.jpg"
   </div>
 </div>
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-6 Content">
     <h4 class="Home-title">Resources</h4>
     <p>
     Our goal is to help our speakers succeed and create a valuable and compelling learning experience for attendees. We’ve compiled a list of practical and inspirational articles, videos, and tools to help you create memorable presentations that will engage your audiences.
@@ -105,7 +105,7 @@ banner_image: "/uploads/banner-resources.jpg"
     Please <a href="mailto:archimedes@umich.edu">contact us</a> with any additional presentation needs you may have. We are here to help!
     </p>
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-6 Content">
     <h4 class="Home-title">Deadlines</h4>
     <p>
     We recommend that you submit your proposal prior to the deadline listed on our website. Proposals will be accepted after the deadline and will be considered should openings become available. If you are not selected for an event, please don’t be discouraged. We are continuously expanding our offerings and your presentation may be a good fit for a future event.

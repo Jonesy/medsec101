@@ -14,7 +14,7 @@ layout: default
       {% assign clear_row = forloop.index | modulo: 2 %}
       <div class="col-md-6 col-lg-6 Speaker">
         <div class="Speaker-header">
-          <img src="{{speaker.speaker_image}}" class="img-fluid">
+          <img src="{{speaker.speaker_image}}" class="img-fluid" title="{{speaker.title}}">
           <div class="Speaker-title">
             <div>
               {{ speaker.title }}

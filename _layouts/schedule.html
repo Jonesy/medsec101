@@ -46,13 +46,19 @@ layout: default
               </div>
               <div class="col-sm-2">
                 {% if presentation.speaker != '' and presentation.is_break == false %}
-                  <img src="{{speaker.speaker_image}}" class="img-fluid">
+                  <img src="{{speaker.speaker_image}}" class="img-fluid" title="{{speaker.title}}">
                 {% endif %}
               </div>
               <div class="col-sm-8">
                 <h5 class="Schedule-presentation-title {% if
                   presentation.is_break %}Schedule-presentation-title--break{% endif %}">
                   {{presentation.title}}
+                  {% if presentation.type == 'health' %}
+                    - <span class="text-info"> Health Delivery Organizations </span>
+                  {% endif %}
+                  {% if presentation.type == 'medical' %}
+                    - <span class="text-success">Medical Device Manufacturers</span>
+                  {% endif %}
                 </h5>
                 {% if presentation.speaker != '' and presentation.is_break == false %}
                 <h6>
@@ -68,10 +74,12 @@ layout: default
           </div>
         </div>
       {% endfor %}
-      <div class="row">
-        <div class="col-sm-12">
-          <hr class="Schedule-divider clearfix"/>
+      {% if forloop.last != true %}
+        <div class="row">
+          <div class="col-sm-12">
+            <hr class="Schedule-divider"/>
+          </div>
         </div>
-      </div>
+      {% endif %}
   {% endfor %}
 </div>
