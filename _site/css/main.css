@@ -61,7 +61,7 @@ a, a:hover { color: #be1414; }
 
 .Banner-cta-button { margin-top: 14px; }
 
-.Footer { padding-top: 60px; padding-bottom: 60px; text-align: center; color: rgba(255, 255, 255, 0.5); background-color: #464646; }
+.Footer { margin-top: 50px; padding-top: 60px; padding-bottom: 60px; text-align: center; color: rgba(255, 255, 255, 0.5); background-color: #464646; }
 .Footer a { color: rgba(255, 255, 255, 0.5); }
 
 .Footer-container { margin: 0 auto; max-width: 1170px; text-align: left; }
@@ -144,3 +144,18 @@ a, a:hover { color: #be1414; }
 
 .Speaker-title { padding: 10px; font-size: 16px; line-height: 22px; }
 .Speaker-title > div:first-child { font-weight: 600; }
+
+.Day { margin: 15px 0; color: #137b9b; }
+.Day hr { border-top: 1px solid #ccc; }
+
+.Day-title { font-size: 24px; font-weight: bold; color: #137b9b; }
+
+.Day-date { font-size: 24px; color: #137b9b; }
+
+.Schedule-block { margin-bottom: 10px; padding-top: 10px; padding-bottom: 10px; }
+.Schedule-block.Schedule-block--break { background-color: #eee; }
+
+.Schedule-presentation-title { font-size: 18px; font-weight: bold; }
+.Schedule-presentation-title.Schedule-presentation-title--break { margin-bottom: 0; }
+
+.Schedule-divider { border-top: 3px solid #ccc; }
