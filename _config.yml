@@ -28,6 +28,14 @@ defaults:
     layout: page
 - scope:
     path: ''
+    type: presentations
+  values:
+    speaker: ''
+    time: ''
+    day: 1
+    type: ''
+- scope:
+    path: ''
     type: speakers
   values:
     credentials_text: ''
