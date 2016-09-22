@@ -1,5 +1,4 @@
 .Day {
-  margin: 15px 0;
   color: #137b9b;
 
   hr {
@@ -19,15 +18,11 @@
 }
 
 .Schedule-block {
-  margin-bottom: 10px;
-  padding: {
-    top: 10px;
-    bottom: 10px;
+  &.Schedule-block--break {
+    color: $brand-secondary-color;
+    position: relative;
   }
 
-  &.Schedule-block--break {
-    background-color: #eee;
-  }
 }
 
 .Schedule-presentation-title {

@@ -12,12 +12,10 @@ layout: default
       {{content}}
     </div>
   </section>
-  <section class="row">
-    {% for day in days %}
-      {% assign day_index = forloop.index %}
-      {% assign blocks = presentations | where: 'day', day_index %}
-
-      <div>{{presentation.relative_directory}}</div>
+  {% for day in days %}
+    {% assign day_index = forloop.index %}
+    {% assign blocks = presentations | where: 'day', day_index %}
+      <div class="row">
         <header class="col-sm-12 Day">
           <div class="row">
             <div class="col-xs-4">
@@ -33,14 +31,12 @@ layout: default
             </div>
           </div>
         </header>
-        {{day}}
-
-        {% for presentation in blocks %}
-          {% assign speaker = speakers | where_exp: 'item', 'item.title
-          contains presentation.speaker' | first %}
-          <div class="
-            col-sm-12
-            Schedule-block
+      </div>
+      {% for presentation in blocks %}
+        {% assign speaker = speakers | where_exp: 'item', 'item.title
+        contains presentation.speaker' | first %}
+        <div class="row">
+          <div class="col-sm-12 Schedule-block
             {% if presentation.is_break %}
                Schedule-block--break
             {% endif %}">
@@ -50,7 +46,7 @@ layout: default
               </div>
               <div class="col-sm-2">
                 {% if speaker %}
-                  <img src="http://placehold.it/200x200" class="img-fluid">
+                  <img src="{{speaker.speaker_image}}" class="img-fluid">
                 {% endif %}
               </div>
               <div class="col-sm-8">
@@ -68,11 +64,14 @@ layout: default
                 {% endif %}
               </div>
             </div>
+            <hr/>
           </div>
-        {% endfor %}
+        </div>
+      {% endfor %}
+      <div class="row">
         <div class="col-sm-12">
           <hr class="Schedule-divider clearfix"/>
         </div>
-    {% endfor %}
-  </section>
+      </div>
+  {% endfor %}
 </div>

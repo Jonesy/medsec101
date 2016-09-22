@@ -34,6 +34,7 @@ defaults:
     time: ''
     day: 1
     type: ''
+    is_break: false
 - scope:
     path: ''
     type: speakers
