@@ -1,7 +1,7 @@
 ---
 title: Public Health Approaches to the Medical Device Cybersecurity Risk Pandemic
 date: 2016-09-22 18:27:00 Z
-position: 7
+position: 5
 speaker: Dale Nordenberg, MD
 time: 11:00 - 11:45 am
 day: 3
