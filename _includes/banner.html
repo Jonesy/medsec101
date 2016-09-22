@@ -1,14 +1,14 @@
 {% if include.url == '/' %}
-  {% assign banner_image = 'banner.jpg' %}
+  {% assign banner_image = '/images/banner.jpg' %}
 {% else %}
-  {% assign banner_image = 'banner-page.jpg' %}
+  {% assign banner_image = page.banner_image %}
 {% endif %}
 
 <div class="container-fluid">
   <div class="Banner">
     <div class="Banner-panel Banner-panel--image" style="background-image:
-      url(/images/{{banner_image}})">
-      <img src="/images/{{banner_image}}" class="img-fluid Banner-img hidden-lg-up">
+      url({{banner_image}})">
+      <img src="{{banner_image}}" class="img-fluid Banner-img hidden-lg-up">
     </div>
     <div class="Banner-panel Banner-panel--text">
       <div>
