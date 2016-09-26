@@ -1,5 +1,5 @@
 ---
-title: Day Two
+title: Day Two - Single Track Sessions
 date: 2016-09-01 16:10:00 Z
 position: 7
 day: 0
