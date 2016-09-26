@@ -1,16 +1,20 @@
 .Speaker {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .Speaker-header {
   margin-bottom: 20px;
-  text-align: center;
   overflow: hidden;
   color: $text-color;
   background-color: #ecf6f8;
 }
 
+.Speaker-photo {
+  max-width: 250px;
+}
+
 .Speaker-title {
+  margin-left: 250px;
   padding: 10px;
   font-size: 16px;
   line-height: 22px;

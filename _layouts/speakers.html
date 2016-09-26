@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+{% assign featured = site.speakers | sort: 'position' | where:'is_featured',
+true %}
+{% assign speakers = site.speakers | sort: 'position' |
+where:'is_featured',false %}
 
 <div class="container-fluid">
   <div class="row">
@@ -9,22 +13,78 @@ layout: default
     </div>
   </div>
   <div class="row">
-    {% assign speakers = site.speakers | sort: 'position' %}
-    {% for speaker in speakers %}
-      {% assign clear_row = forloop.index | modulo: 2 %}
-      <div class="col-md-6 col-lg-6 Speaker">
+    <div class="col-sm-12">
+      <h4 class="Home-title">Speaker Highlight</h4>
+    </div>
+  </div>
+  <div class="row">
+  {% for speaker in featured %}
+    {% if forloop.first %}
+      <div class="col-sm-12" style="margin-bottom: 40px;">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="{{speaker.speaker_image}}" class="img-fluid" title="{{speaker.title}}">
+          </div>
+          <div class="col-sm-8">
+            <h6>
+              {{ speaker.title }}
+            </h6>
+            <div>
+              <small>
+                {{ speaker.credentials_text | markdownify }}
+              </small>
+            </div>
+            <div>
+              {{ speaker.content | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% else %}
+      <div class="col-md-6 Speaker">
         <div class="Speaker-header">
-          <img src="{{speaker.speaker_image}}" class="img-fluid" title="{{speaker.title}}">
+          <div class="Speaker-photo pull-xs-left">
+            <img src="{{speaker.speaker_image}}" class="img-fluid" title="{{speaker.title}}">
+          </div>
           <div class="Speaker-title">
             <div>
               {{ speaker.title }}
             </div>
             <div>
-              {{ speaker.credentials_text | markdownify }}
+              <small>
+                {{ speaker.credentials_text | markdownify }}
+              </small>
             </div>
           </div>
         </div>
         {{ speaker.content | markdownify }}
+      </div>
+    {% endif %}
+  {% endfor %}
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h4 class="Home-title">Session Speakers & Panelists</h4>
+    </div>
+  </div>
+  <div class="row">
+    {% for speaker in speakers %}
+      {% assign clear_row = forloop.index | modulo: 2 %}
+      <div class="col-sm-12 Speaker">
+        <div class="col-sm-3">
+          <img src="{{speaker.speaker_image}}" class="img-fluid" title="{{speaker.title}}">
+        </div>
+        <div class="col-sm-9">
+          <h6>
+            {{ speaker.title }}
+          </h6>
+          <div class="text-muted">
+            <small>
+              {{ speaker.credentials_text | markdownify }}
+            </small>
+          </div>
+          {{ speaker.content | markdownify }}
+        </div>
       </div>
       {% if clear_row == 0 %}
       <div class="clearfix"></div>
