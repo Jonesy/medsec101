@@ -6,4 +6,4 @@ credentials_text: "Director, Clinical Information Security  \nOffice of Informat
   Security  \nMayo Clinic"
 ---
 
-Kevin McDonald is Director of Clinical Information Security in the Office of Information Security at Mayo Clinic. With degrees in Nursing, Education, and Information Systems, Kevin has over 35 years of healthcare experience that includes direct patient care, management, electronic medical record implementation, and information technology and security. At Mayo Clinic, Kevin takes primary responsibility of medical device security for the not-for-profit worldwide leader in patient care, research, and education.
+Kevin McDonald has over 35 years of healthcare experience in various roles. He holds degrees in Nursing, Education and Information Systems. His work experience includes direct patient care, management, electronic medical record implementation, and information technology and security.  Kevin's current role at Mayo Clinic is Director of Clinical Information Security in the Office of Information Security, with one of his primary responsibilities being the security of medical devices.
