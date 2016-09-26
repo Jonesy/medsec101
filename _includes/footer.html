@@ -15,7 +15,7 @@
       <div class="col-sm-3">
         <p>
         Play it safe. Stay informed.<br/>
-        <a href="/newsletter">Sign up to our newsletter</a> for monthly news, research, and interviews.
+        <a href="#newsletter" data-toggle="modal">Sign up to our newsletter</a> for monthly news, research, and interviews.
         </p>
       </div>
       <div class="col-sm-4">
@@ -30,3 +30,29 @@
     </div>
   </div>
 </footer>
+
+<div class="modal fade" id="newsletter" tabindex="-1" role="dialog"
+  aria-labelledby="newsletter" aria-hidden="true">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="exampleModalLabel">Join Our Newsletter</h4>
+      </div>
+      <div class="modal-body">
+        <!--[if lte IE 8]>
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+        <![endif]-->
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+        <script>
+          hbspt.forms.create({
+            portalId: '2312887',
+            formId: '0aba9475-1409-4ad4-87f1-30370bc575f7'
+          });
+        </script>
+      </div>
+    </div>
+  </div>
+</div>
