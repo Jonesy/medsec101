@@ -5,6 +5,7 @@ position: 1
 credentials_text: "Director of Product Security  \nGlobal Privacy and Security Office
   \ \nMedtronic"
 speaker_image: "/uploads/Aerts_Bill.jpg"
+is_featured: true
 ---
 
 Bill Aerts served as the Director of Product Security within Medtronic’s Global Privacy and Security Office. In this role, Bill accounted for the company-wide Global Product Security Program, which brings together product R&D functions, security subject matter experts, and business unit and corporate leadership throughout the company to continually improve security and privacy in the devices, systems, and services that Medtronic sells. To reach its goals, the global program drives the integration of security into the product development lifecycle; monitors industry, customer, and regulatory trends; provides policy and governance; and provides security expertise, along with other security services to the business.  
