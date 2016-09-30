@@ -1,7 +1,7 @@
 ---
 title: Joshua Corman
 date: 2016-09-30 05:27:00 Z
-position: 0
+position: 1
 credentials_text: |-
   Founder
   I am The Cavalry

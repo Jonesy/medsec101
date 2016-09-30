@@ -1,7 +1,7 @@
 ---
 title: Bill Aerts, CISSP, CISM
 date: 2016-09-21 03:54:00 Z
-position: 2
+position: 3
 credentials_text: "Former Director of Product Security \nGlobal Privacy and Security
   Office\nMedtronic"
 speaker_image: "/uploads/Aerts_Bill.jpg"
