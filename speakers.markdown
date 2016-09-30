@@ -8,4 +8,4 @@ banner_image: "/uploads/banner-speakers.jpg"
 layout: speakers
 ---
 
-<div class="alert alert-warning" role="alert">Sign up for the <a href="#newsletter" data-toggle="modal">Archimedes Monthly Newsletter</a> for conference updates as well the latest news, interviews, and research on medical device security.</div>
+
