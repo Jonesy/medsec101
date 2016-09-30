@@ -5,6 +5,7 @@ position: 15
 credentials_text: |-
   Principal Security Analyst
   Mayo Clinic
+speaker_image: "/uploads/Bomett_Andrew.jpg"
 is_invited_expert: true
 ---
 
