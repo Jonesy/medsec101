@@ -42,6 +42,7 @@ defaults:
     credentials_text: ''
     speaker_image: ''
     layout: speakers
+    is_invited_expert: false
 permalink: pretty
 description: 'A cross-disciplinary research initiative on medical device security,
   privacy, safety, and effectiveness
