@@ -5,6 +5,7 @@ position: 16
 credentials_text: |-
   Manager, Clinical Information Security
   Mayo Clinic Office of Information Security
+speaker_image: "/uploads/Bruemmer_Debra.jpg"
 is_invited_expert: true
 ---
 
