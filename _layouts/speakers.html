@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% assign featured = site.speakers | sort: 'position' | where:'is_featured',
 true %}
 {% assign speakers = site.speakers | sort: 'position' |
