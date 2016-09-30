@@ -1,7 +1,7 @@
 ---
 title: Debra Bruemmer, CISSP
 date: 2016-09-30 05:35:00 Z
-position: 0
+position: 16
 credentials_text: |-
   Manager, Clinical Information Security
   Mayo Clinic Office of Information Security
