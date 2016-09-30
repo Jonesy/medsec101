@@ -25,7 +25,7 @@ banner_image: "/uploads/banner-page.jpg"
     </p>
 
     <p>
-    Book your room reservations by calling the Disney Group Reservations Phone Team at (407) 939-4686 or by <a href="https://aws.passkey.com/event/16140533/owner/70576/home">booking online</a>.
+    Book your room reservations by calling the Disney Group Reservations Phone Team at (407) 939-4686 or by <a href="https://aws.passkey.com/event/16140533/owner/70576/landing">booking online</a>.
     </p>
   </div>
 </div>
@@ -51,7 +51,7 @@ banner_image: "/uploads/banner-page.jpg"
   <div class="col-sm-6 Content">
     <h4 class="Home-title">Make It A Vacation</h4>
     <p>
-    Extend your trip and treat your family to a Disney vacation! The discounted room rate is available to attendees <strong>January 12-14</strong> and <strong>January 17</strong>, subject to availability. <a href="https://aws.passkey.com/event/16140533/owner/70576/home">Book your rooms early</a> to make sure you get the discounted rate.
+    Extend your trip and treat your family to a Disney vacation! The discounted room rate is available to attendees <strong>January 12-14</strong> and <strong>January 17</strong>, subject to availability. <a href="https://aws.passkey.com/event/16140533/owner/70576/landing">Book your rooms early</a> to make sure you get the discounted rate.
     </p>
     <p>
     After registering, we encourage you to go to <a href="https://disneyworld.disney.go.com/">Disneyworld.com</a> and click on the My Disney Experience tab or download the My Disney Experience app to access plans and park information on the go. You can also use the <a href="https://disneyworld.disney.go.com/plan/">My Disney Experience</a> site to participate in <a href="https://disneyworld.disney.go.com/plan/">Disney’s Online Check-In Service</a> where you can shorten your check-in process by logging in within 60 days of your arrival date. When you arrive at the hotel, simply show a photo ID at the designated online check-in area.

@@ -49,7 +49,11 @@
         <script>
           hbspt.forms.create({
             portalId: '2312887',
-            formId: '0aba9475-1409-4ad4-87f1-30370bc575f7'
+            formId: '0aba9475-1409-4ad4-87f1-30370bc575f7',
+            onFormSubmit: function ($form, ctx){
+              $('#newsletter').modal('hide');
+              $('#newsletter input.hs-input').val('').change();
+            }
           });
         </script>
       </div>
