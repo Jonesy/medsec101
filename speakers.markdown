@@ -1,5 +1,5 @@
 ---
-title: Speakers
+title: Speakers & Experts
 date: 2016-08-29 18:16:00 Z
 position: 0
 subtitle: Learn from medical device security’s leading experts
