@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-
 {% assign featured = site.speakers | sort: 'position' | where:'is_featured',
 true %}
 {% assign speakers = site.speakers | sort: 'position' |
 where:'is_featured',false %}
+{% assign experts = site.speakers | sort: 'position' |
+where:'is_invited_expert',true %}
 
 <div class="container-fluid">
   <div class="row">
@@ -15,13 +16,13 @@ where:'is_featured',false %}
   </div>
   <div class="row">
     <div class="col-sm-12">
-      <h4 class="Home-title">Speaker Highlight</h4>
+      <h4 class="Home-title">Keynote Speaker</h4>
     </div>
   </div>
   <div class="row">
   {% for speaker in featured %}
     {% if forloop.first %}
-      <div class="col-sm-12" style="margin-bottom: 40px;">
+      <div class="col-sm-12">
         <div class="row">
           <div class="col-sm-4">
             <img src="{{speaker.speaker_image}}" class="img-fluid" title="{{speaker.title}}">
@@ -38,6 +39,9 @@ where:'is_featured',false %}
             <div>
               {{ speaker.content | markdownify }}
             </div>
+          </div>
+          <div class="col-sm-12" style="margin-top: 40px">
+            <h4 class="Home-title">Featured Speakers</h4>
           </div>
         </div>
       </div>
@@ -70,26 +74,19 @@ where:'is_featured',false %}
   </div>
   <div class="row">
     {% for speaker in speakers %}
-      {% assign clear_row = forloop.index | modulo: 2 %}
-      <div class="col-sm-12 Speaker">
-        <div class="col-sm-3">
-          <img src="{{speaker.speaker_image}}" class="img-fluid" title="{{speaker.title}}">
-        </div>
-        <div class="col-sm-9">
-          <h6>
-            {{ speaker.title }}
-          </h6>
-          <div class="text-muted">
-            <small>
-              {{ speaker.credentials_text | markdownify }}
-            </small>
-          </div>
-          {{ speaker.content | markdownify }}
-        </div>
-      </div>
-      {% if clear_row == 0 %}
-      <div class="clearfix"></div>
+      {% if speaker.is_invited_expert == false %}
+        {% include speaker.html speaker=speaker %}
       {% endif %}
+    {% endfor %}
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h4 class="Home-title">Invited Experts</h4>
+    </div>
+  </div>
+  <div class="row">
+    {% for speaker in experts %}
+      {% include speaker.html speaker=speaker %}
     {% endfor %}
   </div>
 </div>
