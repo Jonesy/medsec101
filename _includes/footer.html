@@ -1,47 +1,27 @@
 <footer class="Footer">
   <div class="container-fluid Footer-container">
     <div class="row">
-      <div class="col-sm-1">
-        <img src="/images/umich-2color-transparentbg.png" width="56">
-      </div>
-      <div class="col-sm-4 Footer-footnote">
-        <p>
-          Archimedes is based at the University of Michigan Computer Science &
-          Engineering © {{ 'now' | date: "%Y" }}<br>
-          Disney properties/artwork: ©Disney
-        </p>
-
+      <div class="col-sm-8">
+        <h2 class="Footer-title" style="margin-bottom: 20px;">
+        For questions about the event, or for information on how to become a sponsor, please email <a href="mailto:archimedes@umich.edu">archimedes@umich.edu</a>
+        </h2>
+        <div class="row">
+          <div class="col-sm-2">
+            <img src="/images/umich-2color-transparentbg.png" width="56"
+            class="img-fluid">
+          </div>
+          <div class="col-sm-8 Footer-footnote">
+            <p>
+              Archimedes is based at the University of Michigan Computer Science &
+              Engineering © {{ 'now' | date: "%Y" }}<br>
+              Disney properties/artwork: ©Disney
+            </p>
+          </div>
+        </div>
       </div>
       <div class="col-sm-3">
-        <p>
-        Play it safe. Stay informed.<br/>
-        <a href="#newsletter" data-toggle="modal">Sign up for our newsletter</a> for monthly news, research, and interviews.
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <h4>
-          {{site.conference_dates}}<br>{{site.conference_location}}
-        </h4>
-        <p>
-          For questions about our event email <a
-            href="mailto:archimedes@umich.edu">archimedes@umich.edu</a><br/>
-        </p>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<div class="modal fade" id="newsletter" tabindex="-1" role="dialog"
-  aria-labelledby="newsletter" aria-hidden="true">
-  <div class="modal-dialog modal-sm" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <h4 class="modal-title" id="exampleModalLabel">Join Our Newsletter</h4>
-      </div>
-      <div class="modal-body">
+        <h2 class="Footer-title">Play it safe. Stay informed.</h2>
+        <p>Sign up for monthly news, research, and interviews.</p>
         <!--[if lte IE 8]>
         <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
         <![endif]-->
@@ -50,13 +30,19 @@
           hbspt.forms.create({
             portalId: '2312887',
             formId: '0aba9475-1409-4ad4-87f1-30370bc575f7',
+            onFormReady: function ($form) {
+              console.log($form);
+              $form.find('.hs-button')
+                  .attr('class', '')
+                  .addClass('btn')
+                  .addClass('btn-primary');
+            },
             onFormSubmit: function ($form, ctx){
-              $('#newsletter').modal('hide');
-              $('#newsletter input.hs-input').val('').change();
             }
           });
         </script>
       </div>
     </div>
   </div>
-</div>
+</footer>
+

@@ -36,6 +36,8 @@ $footer-text: rgba(white, 0.5);
   margin-bottom: 1rem;
 }
 
-.Footer-footnote {
-  font-size: 14px;
+.Footer-footnote {}
+
+.hs-form label {
+  color: $footer-text !important;
 }

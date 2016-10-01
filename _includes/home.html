@@ -67,8 +67,10 @@
   <div class="row">
     {% for sponsor in site.sponsors %}
       <div class="col-sm-2">
-        <img src="{{ sponsor.sponsor_logo }}" title="{{ sponsor.title }}"
-        class="img-fluid">
+        <a href="{{ sponsor.sponsor_website}}">
+          <img src="{{ sponsor.sponsor_logo }}" title="{{ sponsor.title }}"
+          class="img-fluid">
+        </a>
       </div>
     {% endfor %}
   </div>
