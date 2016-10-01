@@ -1,5 +1,5 @@
 ---
-title: Day Three - Duel Tracks Sessions
+title: Day Three - Dual Track Sessions
 date: 2016-09-01 16:12:00 Z
 position: 8
 day: 0
