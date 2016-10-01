@@ -59,4 +59,17 @@
       </div>
     </div>
   </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h4 class="Home-title">Sponsors & Partners</h4>
+    </div>
+  </div>
+  <div class="row">
+    {% for sponsor in site.sponsors %}
+      <div class="col-sm-2">
+        <img src="{{ sponsor.sponsor_logo }}" title="{{ sponsor.title }}"
+        class="img-fluid">
+      </div>
+    {% endfor %}
+  </div>
 </div>
