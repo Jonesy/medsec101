@@ -1,0 +1,19 @@
+---
+title: 9:45 am - 10:30 am
+date: 2016-10-02 17:23:00 Z
+tracks:
+- title: Security as a Revenue Accelerator
+  description: Security does not have to cripple productivity or create financial
+    stress. Security professionals across all industries have struggled for years
+    to demonstrate return on investment (ROI) in support of their budgets. It doesn’t
+    work. And if security is improperly positioned—e.g., under IT—the budgeting struggle
+    is a no-win proposition. In this entertaining and informative session, a former
+    medical device manufacturer CISO will explain why sales, marketing, customer service,
+    legal, audit, and the board of directors are the best partners for security and
+    how to secure a seat at the table with other critical business functions. We will
+    also explore a security investment model that is lean, progressive, adaptable
+    to companies of any size/maturity level, and can demonstrate direct, positive
+    impact on revenue.
+  speaker: Bill Ender
+---
+
