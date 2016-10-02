@@ -1,6 +1,7 @@
 ---
 title: Building a Medical Device Security Program
 date: 2016-09-22 18:25:00 Z
+published: false
 position: 4
 speaker: Bill Aerts, CISSP, CISM
 time: 9:00 - 9:45 am
