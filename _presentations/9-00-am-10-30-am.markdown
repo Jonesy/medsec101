@@ -15,5 +15,6 @@ tracks:
     requirements changing the global manufacture of medical devices? This talk will
     introduce attendees to the risks, benefits, and regulatory issues for medical
     device cybersecurity and innovation of trustworthy medical device software.
+  speaker: Kevin Fu, Ph.D
 ---
 
