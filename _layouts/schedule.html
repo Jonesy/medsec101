@@ -2,85 +2,71 @@
 layout: default
 ---
 
-{% assign speakers = site.speakers %}
-{% assign presentations = site.presentations | sort: 'position' %}
-{% assign days = site.presentations | sort: 'position' | where: 'is_day', true %}
-
 <div class="container-fluid">
   <section class="row">
     <div class="col-sm-12">
       {{content}}
     </div>
   </section>
-  {% for day in days %}
-    {% assign day_index = forloop.index %}
-    {% assign blocks = presentations | where: 'day', day_index %}
-      <div class="row">
-        <header class="col-sm-12 Day">
-          <div class="row">
-            <div class="col-xs-4">
-              <h3 class="Day-date">
-                {{day.presentation_date | date_to_string }}
-              </h3>
-            </div>
-            <div class="col-xs-8">
-              <h3 class="Day-title">{{day.title}}</h3>
-            </div>
-            <div class="col-sm-12">
-              <hr/>
-            </div>
-          </div>
-        </header>
-      </div>
-      {% for presentation in blocks %}
-        {% assign speaker = speakers | where_exp: 'item', 'item.title
-        contains presentation.speaker' | first %}
-        {% assign sponsor = site.sponsors | where_exp: 'sponsor', 'sponsor.title contains presentation.sponsor' | first %}
+
+  {% for day in page.schedule %}
+    <div class="row">
+      <header class="col-sm-12 Day">
         <div class="row">
-          <div class="col-sm-12 Schedule-block
-            {% if presentation.is_break %}
-               Schedule-block--break
-            {% endif %}">
-            <div class="row">
-              <div class="col-sm-2">
-                {{presentation.time}}
-              </div>
-              <div class="col-sm-2">
-                {% if presentation.speaker != '' and presentation.is_break == false %}
-                  <img src="{{speaker.speaker_image}}" class="img-fluid" title="{{speaker.title}}">
-                {% endif %}
-                {% if presentation.sponsor %}
-                  <a href="{{sponsor.sponsor_website}}">
-                    <img src="{{sponsor.sponsor_logo}}"
-                    class="img-fluid" title="{{sponsor.title}}">
-                  </a>
-                {% endif %}
-              </div>
-              <div class="col-sm-8">
-                <h5 class="Schedule-presentation-title {% if
-                  presentation.is_break %}Schedule-presentation-title--break{% endif %}">
-                  {{presentation.title}}
-                  {% if presentation.type == 'health' %}
-                    - <span class="text-info"> Health Delivery Organizations </span>
-                  {% endif %}
-                  {% if presentation.type == 'medical' %}
-                    - <span class="text-success">Medical Device Manufacturers</span>
-                  {% endif %}
-                </h5>
-                {% if presentation.speaker != '' and presentation.is_break == false %}
-                <h6>
-                  {{speaker.title}}
-                </h6>
-                {% endif %}
-                {% if presentation.content %}
-                  {{ presentation.content | markdownify }}
-                {% endif %}
-              </div>
-            </div>
+          <div class="col-xs-4">
+            <h3 class="Day-date">
+              {{day.date | date_to_string }}
+            </h3>
+          </div>
+          <div class="col-xs-8">
+            <h3 class="Day-title">{{day.title}}</h3>
+          </div>
+          <div class="col-sm-12">
             <hr/>
           </div>
         </div>
-      {% endfor %}
+      </header>
+    </div>
+
+    {% for slot in day.time_slots %}
+      <div class="row">
+        <div class="col-sm-12 Schedule-block
+          {% if slot.break %}
+             Schedule-block--break
+          {% endif %}">
+            <div class="row">
+              {% if slot.tracks %}
+                <div class="col-sm-12">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      {% for block in slot.tracks.health %}
+                        <div class="row">
+                          {% include presentation.html presentation_title=block.presentation %}
+                        </div>
+                      {% endfor %}
+                    </div>
+                    <div class="col-sm-6">
+                      {% for block in slot.tracks.manufacturers %}
+                        <div class="row">
+                          {% include presentation.html
+                          presentation_title=block.presentation %}
+                        </div>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+            {% else %}
+              <div class="col-sm-2">
+                {{slot.time}}
+              </div>
+              {% include presentation.html presentation_title=slot.presentation %}
+            {% endif %}
+            </div>
+          <hr/>
+        </div>
+      </div>
+    {% endfor %}
+
       {% if forloop.last != true %}
         <div class="row">
           <div class="col-sm-12">
@@ -88,5 +74,7 @@ layout: default
           </div>
         </div>
       {% endif %}
+
   {% endfor %}
+  </div>
 </div>

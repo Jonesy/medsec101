@@ -1,0 +1,41 @@
+{% assign presentation = site.presentations | where_exp: 'p', 'p.title contains
+include.presentation_title' | first %}
+{% assign speaker = site.speakers | where_exp: 's', 's.title contains
+presentation.speaker' | first %}
+
+<div class="col-sm-2">
+  {% if presentation.speaker != '' %}
+    <img src="{{speaker.speaker_image}}" class="img-fluid" title="{{speaker.title}}">
+  {% endif %}
+  {% if presentation.sponsor %}
+    {% assign sponsor = site.sponsors | where_exp: 's', 's.title
+    contains presentation.sponsor' | first %}
+    <a href="{{sponsor.sponsor_website}}">
+      <img src="{{sponsor.sponsor_logo}}"
+      class="img-fluid" title="{{sponsor.title}}">
+    </a>
+  {% endif %}
+</div>
+<div class="col-sm-8">
+  {% if slot.break %}
+    <h5 class="Schedule-presentation-title Schedule-presentation-title--break">
+      {{ slot.break }}
+    </h5>
+    {% if slot.description %}
+      {{ slot.description | markdownify }}
+    {% endif %}
+  {% else %}
+    <h5 class="Schedule-presentation-title">
+      {{ presentation.title }}
+    </h5>
+    {% if presentation.speaker != '' %}
+      <h6>
+        {{speaker.title}}
+      </h6>
+    {% endif %}
+    {% if presentation.content %}
+      {{ presentation.content | markdownify }}
+    {% endif %}
+  {% endif %}
+</div>
+
