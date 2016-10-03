@@ -92,4 +92,4 @@ schedule:
 layout: schedule
 ---
 
-Yacht & Beach Club Convention Center Map (PDF) 
+[Yacht & Beach Club Convention Center Map](/uploads/Yacht%20&%20Beach%20Club%20Convention%20Center%20Map.pdf) (PDF)
