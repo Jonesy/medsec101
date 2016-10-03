@@ -1,4 +1,4 @@
-{% assign presentation = site.presentations | where_exp: 'p', 'p.title contains
+{% assign presentation = site.presentations | where_exp: 'p', 'p.title ==
 include.presentation_title' | first %}
 {% assign speaker = site.speakers | where_exp: 's', 's.title contains
 presentation.speaker' | first %}
@@ -7,6 +7,19 @@ presentation.speaker' | first %}
   {% if presentation.speaker != '' %}
     <img src="{{speaker.speaker_image}}" class="img-fluid" title="{{speaker.title}}">
   {% endif %}
+
+  {% if presentation.speakers %}
+    <div class="row">
+      {% for session_speaker in presentation.speakers %}
+        {% assign speaker = site.speakers | where_exp: 's', 's.title contains
+        session_speaker' | first %}
+        <div class="col-sm-6" style="margin-bottom: 10px;">
+          <img src="{{speaker.speaker_image}}" class="img-fluid" title="{{speaker.title}}">
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
   {% if presentation.sponsor %}
     {% assign sponsor = site.sponsors | where_exp: 's', 's.title
     contains presentation.sponsor' | first %}
@@ -34,9 +47,37 @@ presentation.speaker' | first %}
       </h6>
     {% endif %}
     {% if presentation.content %}
-      <div class="Schedule-presentation-content">
+      {% if include.is_track %}
+        <p><a href="#{{presentation.title | slugify}}" data-toggle="modal">Read abstract</a></p>
+        <div class="Schedule-presentation-content hidden-xs-up">
+          {{ presentation.content | markdownify }}
+        </div>
+        <div class="modal fade" id="{{presentation.title | slugify}}" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                  {{presentation.title}}
+                </h4>
+              </div>
+              <div class="modal-body">
+                <dl>
+                  <dt>Time</dt>
+                  <dd>{{presentation.time}}</dd>
+                  <dt>Speaker</dt>
+                  <dd>{{speaker.title}}</dd>
+                </dl>
+                {{ presentation.content | markdownify }}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% else %}
         {{ presentation.content | markdownify }}
-      </div>
+      {% endif %}
     {% endif %}
   {% endif %}
 </div>

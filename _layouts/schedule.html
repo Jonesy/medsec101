@@ -81,8 +81,11 @@ layout: default
                       {% for block in slot.tracks.manufacturers %}
                         {% include presentation-track-time.html time=block.time %}
                         <div class="row">
-                          {% include presentation.html
-                          presentation_title=block.presentation %}
+                          {%
+                            include presentation.html
+                            presentation_title=block.presentation
+                            is_track=true
+                          %}
                         </div>
                         {% if forloop.last == false %}
                           <div class="row">
