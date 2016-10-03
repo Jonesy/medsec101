@@ -2,6 +2,10 @@
 title: Cybersecurity Policy for Medical Devices Panel Discussion
 date: 2016-09-21 22:32:00 Z
 position: 5
+speakers:
+- Dr. Chantal Worzala, Ph.D, M.P.A
+- Iliana Peters
+- Jarvis Rodgers
 time: 1:30 - 3:00 pm
 day: 2
 ---
