@@ -2,7 +2,7 @@
 title: Introduction to Medical Device Security
 date: 2016-09-22 18:21:00 Z
 published: false
-position: 3
+position: 18
 speaker: Kevin Fu, Ph.D
 time: 9:00 - 9:45 am
 day: 3
