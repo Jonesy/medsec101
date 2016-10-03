@@ -1,6 +1,7 @@
 ---
 title: 'Safer, Sooner, Together: A Hippocratic Oath for Connected Medical Devices'
 date: 2016-10-03 08:03:00 Z
+speaker: Joshua Corman
 ---
 
 The promise of connected medicine is to improve and prolong life.
