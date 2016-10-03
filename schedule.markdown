@@ -66,9 +66,12 @@ schedule:
   - time: 9:45 am - 10:30 am
     tracks:
       health:
+      - time: 11:00 am - 11:45 pm
         presentation: 
       manufacturers:
-        presentation: Security as a Revenue Accelerator
+        Key 1:
+        - time: 11:00 am - 12:30 pm
+          presentation: Introduction to Medical Device Security
   - time: 10:30 am - 11:00 am
     break: Coffee Break
   - time: 11:00 am - 11:45 pm
