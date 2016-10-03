@@ -25,8 +25,8 @@ schedule:
   time_slots:
   - presentation: Breakfast
     time: 8:30 - 9:00 am
-  - presentation: Introduction to Medical Device Security
-    time: 9:00 am - 10:30 am
+  - Key 1: 
+    Key: 
 layout: schedule
 ---
 
