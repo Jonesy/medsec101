@@ -67,7 +67,10 @@ schedule:
     tracks:
       health:
       - time: 11:00 am - 11:45 pm
-        presentation: 
+        presentation: Session Title TBD
+      - time: 11:45 am - 12:30 pm
+        presentation: 'Safer, Sooner, Together: A Hippocratic Oath for Connected Medical
+          Devices'
       manufacturers:
         Key 1:
         - time: 11:00 am - 12:30 pm
