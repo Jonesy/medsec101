@@ -56,10 +56,13 @@ schedule:
     break: Breakfast
   - tracks:
       health:
+      - time: 9:00 am - 10:30 am
         presentation: Introduction to Medical Device Security
       manufacturers:
+      - time: 9:00 am - 9:45 am
         presentation: Building a Medical Device Security Program
-    time: 9:00 am - 10:30 am
+      - time: 9:45 am - 10:30 am
+        presentation: Security as a Revenue Accelerator
   - time: 9:45 am - 10:30 am
     tracks:
       health:
@@ -68,6 +71,12 @@ schedule:
         presentation: Security as a Revenue Accelerator
   - time: 10:30 am - 11:00 am
     break: Coffee Break
+  - time: 11:00 am - 11:45 pm
+    tracks:
+      health:
+        presentation: 
+      manufacturers:
+        presentation: 
   - time: 12:30 pm - 2:00 pm
     break: Lunch
   - time: 3:00 pm - 3:30 pm
