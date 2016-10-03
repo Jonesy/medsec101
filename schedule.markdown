@@ -63,11 +63,13 @@ schedule:
         presentation: Building a Medical Device Security Program
       - time: 9:45 am - 10:30 am
         presentation: Security as a Revenue Accelerator
-  - time: 9:45 am - 10:30 am
-    tracks:
+  - time: 10:30 am - 11:00 am
+    break: Coffee Break
+  - tracks:
       health:
       - time: 11:00 am - 11:45 pm
-        presentation: Session Title TBD
+        presentation: Building security programs in the academic medical center, and
+          not destroying it in the process
       - time: 11:45 am - 12:30 pm
         presentation: 'Safer, Sooner, Together: A Hippocratic Oath for Connected Medical
           Devices'
@@ -75,8 +77,6 @@ schedule:
         Key 1:
         - time: 11:00 am - 12:30 pm
           presentation: Introduction to Medical Device Security
-  - time: 10:30 am - 11:00 am
-    break: Coffee Break
   - time: 11:00 am - 11:45 pm
     tracks:
       health:
