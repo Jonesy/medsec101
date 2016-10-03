@@ -81,12 +81,14 @@ schedule:
   - tracks:
       health:
       - time: 2:00 pm - 3:00 pm
-        presentation: Session Title TBD
+        presentation: Session Title TBD (Health Delivery Organizations)
       manufacturers:
       - time: 2:00 pm - 3:00 pm
-        presentation: Session Title TBD
+        presentation: Session Title TBD (Medical Device Manufacturers)
   - time: 3:00 pm - 3:30 pm
     break: Coffee Break
+  - time: 3:30 - 4:00 pm
+    presentation: Closing Remarks
 layout: schedule
 ---
 
