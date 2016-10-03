@@ -52,8 +52,9 @@ schedule:
 - date: 2017-01-17 00:00:00 Z
   title: Day Three - Duel Tracks Sessions
   time_slots:
-  - presentation: Breakfast
+  - presentation: 
     time: 8:30 - 9:00 am
+    break: Breakfast
 layout: schedule
 ---
 
