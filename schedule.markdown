@@ -20,11 +20,13 @@ schedule:
     time: 9:00 - 9:30 am
   - presentation: Welcome
     time: 9:15 - 9:30 am
-- time_slots:
+- date: 2017-01-17 00:00:00 Z
+  title: Day Three - Duel Tracks Sessions
+  time_slots:
   - presentation: Breakfast
     time: 8:30 - 9:00 am
-  date: 2017-01-17 00:00:00 Z
-  title: Day Three - Duel Tracks Sessions
+  - presentation: Introduction to Medical Device Security
+    time: 9:00 am - 10:30 am
 layout: schedule
 ---
 
