@@ -2,9 +2,7 @@
 title: Andrew (Drew) Bomett, M.S.S.T, CISSP
 date: 2016-09-30 05:36:00 Z
 position: 15
-credentials_text: |-
-  Principal Security Analyst
-  Mayo Clinic
+credentials_text: "Principal Security Analyst  \nMayo Clinic"
 speaker_image: "/uploads/Bomett_Andrew.jpg"
 is_invited_expert: true
 ---
