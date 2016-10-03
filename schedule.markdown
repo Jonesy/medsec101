@@ -52,7 +52,7 @@ schedule:
 - date: 2017-01-17 00:00:00 Z
   title: Day Three - Dual Tracks Sessions
   time_slots:
-  - time: 8:30 - 9:00 am
+  - time: 8:00 - 9:00 am
     break: Breakfast
   - tracks:
       health:
