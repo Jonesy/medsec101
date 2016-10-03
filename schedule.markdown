@@ -52,8 +52,7 @@ schedule:
 - date: 2017-01-17 00:00:00 Z
   title: Day Three - Duel Tracks Sessions
   time_slots:
-  - presentation: 
-    time: 8:30 - 9:00 am
+  - time: 8:30 - 9:00 am
     break: Breakfast
   - tracks:
       health:
@@ -61,14 +60,17 @@ schedule:
       manufacturers:
         presentation: Building a Medical Device Security Program
     time: 9:00 am - 10:30 am
-  - presentation: 
-    time: 10:30 am - 11:00 am
+  - time: 9:45 am - 10:30 am
+    tracks:
+      health:
+        presentation: 
+      manufacturers:
+        presentation: Security as a Revenue Accelerator
+  - time: 10:30 am - 11:00 am
     break: Coffee Break
-  - presentation: 
-    time: 12:30 pm - 2:00 pm
+  - time: 12:30 pm - 2:00 pm
     break: Lunch
-  - presentation: 
-    time: 3:00 pm - 3:30 pm
+  - time: 3:00 pm - 3:30 pm
     break: Coffee Break
 layout: schedule
 ---
