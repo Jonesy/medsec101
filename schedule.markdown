@@ -62,8 +62,7 @@ schedule:
   - tracks:
       health:
       - time: 11:00 am - 11:45 pm
-        presentation: Building security programs in the academic medical center, and
-          not destroying it in the process
+        presentation: Session Title TBD
       - time: 11:45 am - 12:30 pm
         presentation: 'Safer, Sooner, Together: A Hippocratic Oath for Connected Medical
           Devices'
