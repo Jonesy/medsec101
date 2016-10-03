@@ -55,6 +55,15 @@ schedule:
   - presentation: 
     time: 8:30 - 9:00 am
     break: Breakfast
+  - presentation: 
+    time: 10:30 am - 11:00 am
+    break: Coffee Break
+  - presentation: 
+    time: 12:30 pm - 2:00 pm
+    break: Lunch
+  - presentation: 
+    time: 3:00 pm - 3:30 pm
+    break: Coffee Break
 layout: schedule
 ---
 
