@@ -4,7 +4,7 @@ date: 2016-09-30 05:27:00 Z
 position: 3
 credentials_text: "Founder  \nI am The Cavalry"
 speaker_image: "/uploads/Joshua_Corman_sm.jpg"
-is_invited_expert: true
+is_invited_expert: false
 is_featured: false
 ---
 
