@@ -29,6 +29,26 @@ layout: default
     </div>
 
     {% for slot in day.time_slots %}
+      {% if slot.tracks %}
+        <div class="row">
+          <div class="col-sm-6 Presentation-track">
+            <h5>
+              Health Delivery Organizations
+            </h5>
+            <small>Asbury Hall: A & B</small>
+          </div>
+          <div class="col-sm-6 Presentation-track">
+            <h5>Manufacturers</h5>
+            <small>Asbury Hall: C & D</small>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <hr>
+          </div>
+        </div>
+      {% endif %}
+
       <div class="row">
         <div class="col-sm-12 Schedule-block
           {% if slot.break %}
@@ -40,17 +60,37 @@ layout: default
                   <div class="row">
                     <div class="col-sm-6">
                       {% for block in slot.tracks.health %}
+                        {% include presentation-track-time.html time=block.time %}
                         <div class="row">
-                          {% include presentation.html presentation_title=block.presentation %}
+                          {% include
+                            presentation.html
+                            presentation_title=block.presentation
+                            is_track=true
+                          %}
                         </div>
+                        {% if forloop.last == false %}
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <hr/>
+                            </div>
+                          </div>
+                        {% endif %}
                       {% endfor %}
                     </div>
                     <div class="col-sm-6">
                       {% for block in slot.tracks.manufacturers %}
+                        {% include presentation-track-time.html time=block.time %}
                         <div class="row">
                           {% include presentation.html
                           presentation_title=block.presentation %}
                         </div>
+                        {% if forloop.last == false %}
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <hr/>
+                            </div>
+                          </div>
+                        {% endif %}
                       {% endfor %}
                     </div>
                   </div>
@@ -59,7 +99,10 @@ layout: default
               <div class="col-sm-2">
                 {{slot.time}}
               </div>
-              {% include presentation.html presentation_title=slot.presentation %}
+              {% include
+                presentation.html
+                presentation_title=slot.presentation
+              %}
             {% endif %}
             </div>
           <hr/>

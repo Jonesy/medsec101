@@ -16,7 +16,7 @@ presentation.speaker' | first %}
     </a>
   {% endif %}
 </div>
-<div class="col-sm-8">
+<div class="col-sm-{% if include.is_track %}10{% else %}8{% endif %}">
   {% if slot.break %}
     <h5 class="Schedule-presentation-title Schedule-presentation-title--break">
       {{ slot.break }}
@@ -34,7 +34,9 @@ presentation.speaker' | first %}
       </h6>
     {% endif %}
     {% if presentation.content %}
-      {{ presentation.content | markdownify }}
+      <div class="Schedule-presentation-content">
+        {{ presentation.content | markdownify }}
+      </div>
     {% endif %}
   {% endif %}
 </div>
