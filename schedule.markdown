@@ -16,10 +16,39 @@ schedule:
   time_slots:
   - presentation: On-site Registration
     time: 8:00 am - 9:00 am
-  - presentation: Breakfast — Salon 5 & 6
+  - presentation: 
     time: 9:00 - 9:30 am
+    break: Breakfast — Salon 5 & 6
   - presentation: Welcome
     time: 9:15 - 9:30 am
+  - presentation: Keynote
+    time: 9:30 - 10:30 am
+  - presentation: 
+    time: 10:30 - 11:00 am
+    break: Coffee Break
+  - presentation: 'AAMI TIR57: Principles for Medical Device Security—Risk Management'
+    time: 11:00 am - 12:00 pm
+    break: 
+  - presentation: 
+    time: 12:00 - 1:30 pm
+    break: Meet the Experts Lunch
+    description: Join leaders from Mayo Clinic, the FDA, Medtronic, the University
+      of Michigan, and AAMI’s Device Security Working Group for a first-come, first-served
+      seat at the table with conference leaders, speakers, and invited experts. This
+      is your chance to get your most pressing questions answered all while enjoying
+      a delicious lunch.
+  - presentation: Cybersecurity Policy for Medical Devices Panel Discussion
+    time: 1:30 - 3:00 pm
+  - presentation: 
+    time: 3:00 - 3:30 pm
+    break: Coffee Break
+  - presentation: Patient Harm? Analyzing Cyber Security Vulnerabilities for Patient
+      Safety Issues
+    time: 3:30 - 4:30 pm
+  - presentation: Gala Dinner
+    time: 6:15 - 8:30 pm
+  - presentation: Dessert  & Illuminations
+    time: 8:30 - 9:30 pm
 - date: 2017-01-17 00:00:00 Z
   title: Day Three - Duel Tracks Sessions
   time_slots:
