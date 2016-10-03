@@ -74,16 +74,8 @@ schedule:
         presentation: 'Safer, Sooner, Together: A Hippocratic Oath for Connected Medical
           Devices'
       manufacturers:
-        Key 1:
-        - time: 11:00 am - 12:30 pm
-          presentation: Introduction to Medical Device Security
-  - time: 11:00 am - 11:45 pm
-    tracks:
-      health:
-        presentation: 
-      manufacturers:
+      - time: 11:00 am - 12:30 pm
         presentation: Introduction to Medical Device Security
-        time: 11:00 am - 12:30 pm
   - time: 12:30 pm - 2:00 pm
     break: Lunch
   - tracks:
