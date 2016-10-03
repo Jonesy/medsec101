@@ -85,6 +85,13 @@ schedule:
         presentation: 
   - time: 12:30 pm - 2:00 pm
     break: Lunch
+  - manufacturers:
+    - time: 2:00 pm - 3:00 pm
+      presentation: Session Title TBD
+    health:
+    - time: 2:00 pm - 3:00 pm
+      presentation: Building security programs in the academic medical center, and
+        not destroying it in the process
   - time: 3:00 pm - 3:30 pm
     break: Coffee Break
 layout: schedule
