@@ -82,7 +82,8 @@ schedule:
       health:
         presentation: 
       manufacturers:
-        presentation: 
+        presentation: Introduction to Medical Device Security
+        time: 11:00 am - 12:30 pm
   - time: 12:30 pm - 2:00 pm
     break: Lunch
   - tracks:
