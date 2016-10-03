@@ -11,6 +11,15 @@ schedule:
   time_slots:
   - time: 4:00 - 6:00 pm
     presentation: On-site Registration
+- day: Day Two - Single Track Sessions
+  date: 2017-01-16 00:00:00 Z
+  time_slots:
+  - presentation: On-site Registration
+    time: 8:00 am - 9:00 am
+  - presentation: Breakfast — Salon 5 & 6
+    time: 9:00 - 9:30 am
+  - presentation: Welcome
+    time: 9:15 - 9:30 am
 layout: schedule
 ---
 
