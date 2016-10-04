@@ -66,9 +66,11 @@ presentation.speaker' | first %}
               <div class="modal-body">
                 <dl>
                   <dt>Time</dt>
-                  <dd>{{presentation.time}}</dd>
+                  <dd>{{include.time}}</dd>
                   <dt>Speaker</dt>
                   <dd>{{speaker.title}}</dd>
+                  <dt>Location</dt>
+                  <dd>{{include.location}}</dd>
                 </dl>
                 {{ presentation.content | markdownify }}
               </div>
