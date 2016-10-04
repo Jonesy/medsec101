@@ -77,7 +77,8 @@ schedule:
         presentation: Session Title TBD (Health Delivery Organizations)
       manufacturers:
       - time: 2:00 pm - 3:00 pm
-        presentation: Session Title TBD (Medical Device Manufacturers)
+        presentation: The Why and How of Medical Device Security – a Manufacturers
+          Perspective
   - time: 3:00 pm - 3:30 pm
     break: Coffee Break
   - time: 3:30 - 4:00 pm
