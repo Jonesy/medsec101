@@ -62,7 +62,7 @@ schedule:
   - tracks:
       health:
       - time: 11:00 am - 11:45 pm
-        presentation: Session Title TBD
+        presentation: Setting up your own medical device security program
       - time: 11:45 am - 12:30 pm
         presentation: 'Safer, Sooner, Together: A Hippocratic Oath for Connected Medical
           Devices'
