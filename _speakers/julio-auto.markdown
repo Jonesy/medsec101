@@ -2,6 +2,7 @@
 title: Julio Auto
 date: 2016-10-03 19:05:00 Z
 credentials_text: "Principal Information Security Engineer  \nMayo Clinic"
+speaker_image: "/uploads/Auto-de-Medeiros_Julio.jpg"
 is_invited_expert: true
 ---
 
