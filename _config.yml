@@ -47,12 +47,13 @@ defaults:
     layout: speakers
     is_invited_expert: false
 permalink: pretty
-description: 'A cross-disciplinary research initiative on medical device security,
-  privacy, safety, and effectiveness
-
+description: 'Medical Device Security 101 Conference -
+Improve your medical device security with advice from the experts
+ - January 15 - 17, 2017 at Lake Buena Vista, FL
 '
 twitter_username: ARC_MedSec
 github_username: Jonesy
 linkedin_username: https://linkedin.com/
 conference_dates: January 15 - 17, 2017
 conference_location: Lake Buena Vista, FL
+url: https://www.medicalsecurity101.org
