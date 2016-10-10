@@ -1,7 +1,7 @@
 ---
 title: Michael McNeil, MBA
 date: 2016-09-21 04:08:00 Z
-position: 9
+position: 11
 credentials_text: "Global Product Security & Services Officer  \nPhilips Healthcare"
 speaker_image: "/uploads/McNeil_Michael_JPEG.jpg"
 is_featured: false

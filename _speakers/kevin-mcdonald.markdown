@@ -1,7 +1,7 @@
 ---
 title: Kevin McDonald, BSN, ME-PD, CISSP
 date: 2016-09-21 04:02:00 Z
-position: 7
+position: 9
 credentials_text: "Director, Clinical Information Security  \nOffice of Information
   Security  \nMayo Clinic"
 speaker_image: "/uploads/McDonald_Kevin%20headshot.jpg"

@@ -1,7 +1,7 @@
 ---
 title: Fubin Wu
 date: 2016-09-01 15:58:00 Z
-position: 13
+position: 15
 credentials_text: "Co-Founder  \nGessNet™"
 speaker_image: "/uploads/Wu_Fubin.jpg"
 is_featured: false
