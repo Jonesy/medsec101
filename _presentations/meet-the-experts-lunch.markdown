@@ -1,6 +1,13 @@
 ---
 title: Meet the Experts Lunch
 date: 2016-10-03 19:01:00 Z
+speakers:
+- Julio Auto
+- Andrew (Drew) Bomett, M.S.S.T, CISSP
+- Debra Bruemmer, CISSP
+- Dale Nordenberg, MD
+- Denis Foo Kune, Ph.D.
+- Fubin Wu
 ---
 
 * Julio Auto, Principal Information Security Engineer, Mayo Clinic
