@@ -1,5 +1,5 @@
 ---
-title: Building a Medical Device Security Program
+title: How to Set up a Medical Device Security Program for Manufacturers
 date: 2016-09-22 18:25:00 Z
 position: 13
 speaker: Bill Aerts, CISSP, CISM
