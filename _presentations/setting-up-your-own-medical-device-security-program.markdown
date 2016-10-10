@@ -4,4 +4,4 @@ date: 2016-10-03 20:51:00 Z
 speaker: Kevin McDonald, BSN, ME-PD, CISSP
 ---
 
-Having a medical device security program can provide significant benefits to an institution.  With a program in place, vulnerable devices can be identified, risks can be assessed and remediation’s planned.  A medical device security program requires that a strong base is in place in the areas of governance, policies, standards, process and staff skills.  This session will outline the initial steps needed to start evaluating medical devices by setting up the foundational structure and activities.
+Health delivery organizations can benefit significantly from a solid medical device security program. With a security program in place, you can identify vulnerable devices, assess risks, and plan remediations. But for your medical device security program to be effective, you must have a strong base in place in the areas of governance, policies, standards, process, and staff skills. In this session, members of health delivery organizations will learn how to set up the foundational structure and processes necessary for creating a strong medical device security program.
