@@ -6,7 +6,7 @@ subtitle: Join us for two days of educational talks and panel discussions
 banner_title: Schedule of Events
 banner_image: "/uploads/banner-schedule.jpg"
 schedule:
-- title: Day One
+- title: Monday
   date: 2017-01-15 00:00:00 Z
   time_slots:
   - time: 4:00 - 6:00 pm
