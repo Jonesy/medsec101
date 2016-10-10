@@ -1,7 +1,7 @@
 ---
 title: Billy Rios, CISSP
 date: 2016-09-21 04:08:00 Z
-position: 14
+position: 15
 credentials_text: "Founder  \nWhiteScope, LLC"
 speaker_image: "/uploads/Rios_Billy.jpg"
 is_featured: false
