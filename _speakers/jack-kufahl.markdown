@@ -1,7 +1,7 @@
 ---
 title: Jack Kufahl
 date: 2016-09-21 03:56:00 Z
-position: 6
+position: 7
 credentials_text: "Chief Information Security Officer  \nUniversity of Michigan Health
   System (UMHS)"
 speaker_image: "/uploads/Kufahl_Jack.jpg"

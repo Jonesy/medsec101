@@ -1,7 +1,7 @@
 ---
 title: Denis Foo Kune, Ph.D.
 date: 2016-10-10 17:31:00 Z
-position: 7
+position: 8
 credentials_text: Co-Founder, Virta Laboratories, Inc.
 speaker_image: "/uploads/fookune_headshot3.jpg"
 is_invited_expert: true
