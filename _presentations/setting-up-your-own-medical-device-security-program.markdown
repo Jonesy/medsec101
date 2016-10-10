@@ -1,5 +1,5 @@
 ---
-title: Setting up your own medical device security program
+title: How to Set Up a Medical Device Security Program for Health Delivery Organizations
 date: 2016-10-03 20:51:00 Z
 speaker: Kevin McDonald, BSN, ME-PD, CISSP
 ---
