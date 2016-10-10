@@ -6,12 +6,12 @@ subtitle: Join us for two days of educational talks and panel discussions
 banner_title: Schedule of Events
 banner_image: "/uploads/banner-schedule.jpg"
 schedule:
-- title: Monday
+- title: Sunday
   date: 2017-01-15 00:00:00 Z
   time_slots:
   - time: 4:00 - 6:00 pm
     presentation: On-site Registration
-- title: Day Two - Single Track Sessions
+- title: Monday - Single Track Sessions
   date: 2017-01-16 00:00:00 Z
   time_slots:
   - presentation: On-site Registration
@@ -44,7 +44,7 @@ schedule:
   - presentation: Dessert  & Illuminations
     time: 8:30 - 9:30 pm
 - date: 2017-01-17 00:00:00 Z
-  title: Day Three - Dual Track Sessions
+  title: Tuesday - Dual Track Sessions
   time_slots:
   - time: 8:00 - 9:00 am
     break: Breakfast
