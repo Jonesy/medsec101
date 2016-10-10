@@ -1,7 +1,7 @@
 ---
 title: Suzanne B. Schwartz, MD, MBA
 date: 2016-09-01 15:55:00 Z
-position: 10
+position: 11
 credentials_text: "Associate Director for Science and Strategic Partnerships  \nCenter
   for Devices and Radiological Health  \nU.S. Food and Drug Administration  "
 speaker_image: "/uploads/Schwartz_Suzanne.jpg"
