@@ -45,6 +45,8 @@ schedule:
     time: 8:30 - 9:30 pm
 - date: 2017-01-17 00:00:00 Z
   title: Tuesday - Dual Track Sessions
+  description: These training sessions are not open to the public. Attendance is limited
+    to HDO’s, manufacturers, and regulators
   time_slots:
   - time: 8:00 - 9:00 am
     break: Breakfast
