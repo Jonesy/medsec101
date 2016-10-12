@@ -1,7 +1,7 @@
 ---
 title: Kevin Fu, Ph.D
 date: 2016-09-01 15:59:00 Z
-position: 7
+position: 8
 credentials_text: "Associate Professor  \nComputer Science & Engineering  \nUniversity
   of Michigan"
 speaker_image: "/uploads/Fu_Kevin_Headshot.jpg"
