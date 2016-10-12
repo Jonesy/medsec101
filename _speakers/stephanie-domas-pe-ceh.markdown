@@ -2,6 +2,8 @@
 title: Stephanie Domas, PE, CEH
 date: 2016-10-12 16:57:00 Z
 credentials_text: "Lead Medical Security Engineer  \nBattelle DeviceSecure Services"
+speaker_image: "/uploads/Domas_Stephanie.jpg"
+is_invited_expert: true
 ---
 
 Stephanie (Preston) Domas is Lead Security Engineer for Battelle’s DeviceSecure®Services. In this role, she is responsible for the design, architecture, verification, and execution of security best practices in the development of new medical devices as well as the testing and cybersecurity risk mitigation of legacy systems. Battelle has current active cybersecurity design and testing programs with many of the world’s largest medical device manufacturers.
