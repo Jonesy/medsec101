@@ -56,7 +56,7 @@ schedule:
         presentation: Introduction to Medical Device Security
       manufacturers:
       - time: 9:00 am - 9:45 am
-        presentation: Building a Medical Device Security Program
+        presentation: How to Set up a Medical Device Security Program for Manufacturers
       - time: 9:45 am - 10:30 am
         presentation: Security as a Revenue Accelerator
   - time: 10:30 am - 11:00 am
@@ -64,7 +64,8 @@ schedule:
   - tracks:
       health:
       - time: 11:00 am - 11:45 pm
-        presentation: Setting up your own medical device security program
+        presentation: How to Set Up a Medical Device Security Program for Health Delivery
+          Organizations
       - time: 11:45 am - 12:30 pm
         presentation: 'Safer, Sooner, Together: A Hippocratic Oath for Connected Medical
           Devices'
