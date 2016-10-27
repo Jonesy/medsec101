@@ -4,6 +4,7 @@ date: 2016-10-03 19:01:00 Z
 speakers:
 - Julio Auto
 - Andrew (Drew) Bomett, M.S.S.T, CISSP
+- Matt Braun
 - Debra Bruemmer, CISSP
 - Stephanie Domas, PE, CEH
 - Dale Nordenberg, MD
