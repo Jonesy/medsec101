@@ -1,7 +1,7 @@
 ---
 title: Stephanie Domas, PE, CEH
 date: 2016-10-12 16:57:00 Z
-position: 6
+position: 7
 credentials_text: "Lead Medical Security Engineer  \nBattelle DeviceSecure Services"
 speaker_image: "/uploads/Domas_Stephanie.jpg"
 is_invited_expert: true
