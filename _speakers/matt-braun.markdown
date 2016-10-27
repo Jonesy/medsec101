@@ -2,6 +2,7 @@
 title: Matt Braun
 date: 2016-10-27 15:20:00 Z
 credentials_text: "Chief Information Officer  \nUniversity of New Mexico"
+speaker_image: "/uploads/Matt_Braun.jpg"
 is_invited_expert: true
 ---
 
