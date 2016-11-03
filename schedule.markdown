@@ -74,8 +74,7 @@ schedule:
   - tracks:
       health:
       - time: 2:00 pm - 3:00 pm
-        presentation: Building security programs in the academic medical center and
-          not destroying it in the process
+        presentation: Building security
       manufacturers:
       - time: 2:00 pm - 3:00 pm
         presentation: The Why and How of Medical Device Security – a Manufacturers
