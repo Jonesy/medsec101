@@ -36,6 +36,7 @@ columns:
     After registering, we encourage you to go to [Disneyworld.com](https://disneyworld.disney.go.com/) and click on the My Disney Experience tab or download the My Disney Experience app to access plans and park information on the go. You can also use the [My Disney Experience](https://disneyworld.disney.go.com/plan/) site to participate in [Disney’s Online Check-In Service](https://disneyworld.disney.go.com/plan/) where you can shorten your check-in process by logging in within 60 days of your arrival date. When you arrive at the hotel, simply show a photo ID at the designated online check-in area.
 - title: Disney’s Magical Express Service
   body: |-
+    <div>{{page.banner_title}}</div>
     Guests traveling through the Orlando International Airport will be provided with Disney’s Magical Express service, which consists of complimentary airport shuttle service, luggage delivery, and remote airline check-in on participating airlines.
 
     Book your [Magical Express reservation online](https://disneyworld.disney.go.com/plan/) or by calling (407) 827-6777 with your flight information about 48 hours AFTER your hotel reservation has been entered into Disney’s system.
