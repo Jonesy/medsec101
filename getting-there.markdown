@@ -30,7 +30,7 @@ columns:
 - title: Map
   map: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14042.40747734434!2d-81.55839!3d28.370884!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x69d8b01d16439b6d!2sDisney&#39;s+Yacht+Club+Resort!5e0!3m2!1sen!2sca!4v1474003500382
 - title: Make It A Vacation
-  description: |-
+  body: |-
     Extend your trip and treat your family to a Disney vacation! The discounted room rate is available to attendees **January 12-14 and January 17**, subject to availability. [Book your rooms early](https://aws.passkey.com/event/16140533/owner/70576/home) to make sure you get the discounted rate.
 
     After registering, we encourage you to go to [Disneyworld.com](https://disneyworld.disney.go.com/) and click on the My Disney Experience tab or download the My Disney Experience app to access plans and park information on the go. You can also use the [My Disney Experience](https://disneyworld.disney.go.com/plan/) site to participate in [Disney’s Online Check-In Service](https://disneyworld.disney.go.com/plan/) where you can shorten your check-in process by logging in within 60 days of your arrival date. When you arrive at the hotel, simply show a photo ID at the designated online check-in area.
