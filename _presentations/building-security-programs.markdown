@@ -1,6 +1,5 @@
 ---
-title: Building security programs in the academic medical center and not destroying
-  it in the process
+title: Building security
 date: 2016-10-03 08:05:00 Z
 speaker: Jack Kufahl
 ---
