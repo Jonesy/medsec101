@@ -34,9 +34,6 @@ defaults:
     type: presentations
   values:
     speaker: ''
-    time: ''
-    day: 1
-    type: ''
     is_break: false
 - scope:
     path: ''
