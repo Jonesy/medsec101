@@ -16,19 +16,16 @@ schedule:
   time_slots:
   - presentation: On-site Registration
     time: 8:00 am - 9:00 am
-  - presentation: 
-    time: 9:00 - 9:30 am
+  - time: 9:00 - 9:30 am
     break: Breakfast — Salon 5 & 6
   - presentation: Welcome
     time: 9:15 - 9:30 am
   - presentation: Keynote
     time: 9:30 - 10:30 am
-  - presentation: 
-    time: 10:30 - 11:00 am
+  - time: 10:30 - 11:00 am
     break: Coffee Break
   - presentation: 'AAMI TIR57: Principles for Medical Device Security—Risk Management'
     time: 11:00 am - 12:00 pm
-    break: 
   - presentation: Meet the Experts Lunch
     time: 12:00 - 1:30 pm
   - presentation: Cybersecurity Policy for Medical Devices Panel Discussion
