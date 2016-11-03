@@ -7,6 +7,23 @@ cta_link: https://aws.passkey.com/event/16140533/owner/70576/home
 cta_text: Book Your Room
 banner_title: Getting There
 banner_image: "/uploads/banner-page.jpg"
+columns:
+- title: While You’re Working Away, The Kids Can Play
+  body: The Medical Device Security 101 Conference will be held at <em>Disney’s Yacht
+    & Beach Club Resorts</em> where you and your family can relax, swim, and enjoy
+    easy access to Walt Disney World’s many parks and attractions. Designed in the
+    tradition of a New England-style yacht club, __Disney’s Yacht & Beach Club Resorts__
+    sit on Stormalong Bay—a 3-acre waterpark featuring pools, lagoons, waterslides,
+    a lazy river, and a life-size shipwreck for young pirates to explore. The hotel
+    is walking distance to Epcot and a mere boat-ride from Disney’s Hollywood Studios,
+    placing you right in the heart of Disney’s premier attractions.
+- title: Schedule Your Reservations
+  body: |-
+    Discounted room rates at <em>Disney’s Yacht & Beach Club Resorts</em> are available for Medical Device Security 101 Conference attendees until <strong>Friday, December 16</strong>, or until the room block sells out.
+
+    The room rate for attendees is **$239 per night**, which includes complimentary shuttle service to and from the Orlando International Airport as well as complimentary transportation to and from the __Walt Disney World Resort Theme Parks__.
+
+    Book your room reservations by calling the Disney Group Reservations Phone Team at (407) 939-4686 or by [booking online]({{page.cta_link}}).
 ---
 
 <div class="row">
