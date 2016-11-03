@@ -9,12 +9,24 @@ layout: default
     </div>
   </div>
 
-  {% for section in page.sections %}
-    <div>
-      <h4>{{section.title}}</h4>
-      <div>
-        {{section.description | markdownify}}
+  <div class="row">
+    {% for section in page.columns %}
+      <div class="col-sm-6 Content">
+        <h4 class="Home-title">{{section.title}}</h4>
+        {{section.body | markdownify}}
+        {% if section.map %}
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              class="embed-responsive-item"
+              src="{{section.map}}"
+              width="600"
+              height="450"
+              frameborder="0"
+              style="border:0" allowfullscreen>
+            </iframe>
+          </div>
+        {% endif %}
       </div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </article>
