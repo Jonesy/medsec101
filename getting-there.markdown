@@ -41,4 +41,3 @@ columns:
     Book your [Magical Express reservation online](https://disneyworld.disney.go.com/plan/) or by calling (407) 827-6777 with your flight information about 48 hours AFTER your hotel reservation has been entered into Disney’s system.
 ---
 
-<div>{{page.banner_title}}</div>
