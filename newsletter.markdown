@@ -1,9 +1,10 @@
 ---
-banner_image: /images/banner.jpg
+banner_image: "/images/banner.jpg"
 banner_title: Play it safe. Stay informed.
 subtitle: Sign up for monthly news, research, and interviews.
 layout: page
 ---
+
 <div>
   <!--[if lte IE 8]>
   <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
