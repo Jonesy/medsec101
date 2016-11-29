@@ -23,7 +23,7 @@ columns:
 
     The room rate for attendees is **$239 per night**, which includes complimentary shuttle service to and from the Orlando International Airport as well as complimentary transportation to and from the __Walt Disney World Resort Theme Parks__.
 
-    Book your room reservations by calling the Disney Group Reservations Phone Team at (407) 939-4686 or by [booking online]({{page.cta_link}}).
+    Book your room reservations by calling the Disney Group Reservations Phone Team at (407) 939-4686 or by [booking online](https://aws.passkey.com/event/16140533/owner/70576/home).
 - title: Resort Location
   body: "__Disney’s Yacht & Beach Club Resorts__  \n1750 Epcot Resorts Blvd  \nLake
     Buena Vista, FL 32830"
