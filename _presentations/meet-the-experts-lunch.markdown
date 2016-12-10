@@ -14,7 +14,7 @@ speakers:
 ---
 
 * Julio Auto, Principal Information Security Engineer, Mayo Clinic
-* Andrew (Drew) Bomett, M.S.S.T, CISSP, Principal Security Analyst, Mayo Clinic
+* Andrew (Drew) Bomett, M.S.S.T, CISSP, Product Security Manager, Boston Scientific
 * Debra Bruemmer, CISSP, Manager, Clinical Information Security, Mayo Clinic Office of Information Security
 * Stephanie Domas, PE, CEH, Lead Medical Security Engineer, Battelle DeviceSecure Services
 * Denis Foo Kune, Ph.D, Co-Founder, Virta Laboratories, Inc.
