@@ -7,8 +7,9 @@ speakers:
 - Matt Braun
 - Debra Bruemmer, CISSP
 - Stephanie Domas, PE, CEH
-- Dale Nordenberg, MD
 - Denis Foo Kune, Ph.D.
+- Dale Nordenberg, MD
+- Gavin O'Brien
 - Fubin Wu
 ---
 
