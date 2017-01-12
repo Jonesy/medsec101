@@ -2,11 +2,8 @@
 title: Alexander Diekmann
 date: 2017-01-12 06:18:00 Z
 position: 7
-credentials_text: |-
-  CISA
-  CISM
-  Manager Post-Market Cyber Security Services
-  Roche Diagnostics
+credentials_text: "CISA  \nCISM  \nManager Post-Market Cyber Security Services  \nRoche
+  Diagnostics"
 speaker_image: "/uploads/Diekmann_headshot-3.jpg"
 is_invited_expert: true
 ---
