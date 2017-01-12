@@ -2,11 +2,14 @@
 title: Meet the Experts Lunch
 date: 2016-10-03 19:01:00 Z
 speakers:
+- Bill Aerts, CISSP, CISM
 - Julio Auto
 - Andrew (Drew) Bomett, M.S.S.T, CISSP
 - Matt Braun
 - Debra Bruemmer, CISSP
+- Alexander Diekmann
 - Stephanie Domas, PE, CEH
+- Kevin Fu, Ph.D
 - Denis Foo Kune, Ph.D.
 - Dale Nordenberg, MD
 - Gavin O'Brien
