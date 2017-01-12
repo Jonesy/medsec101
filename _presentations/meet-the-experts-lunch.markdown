@@ -13,10 +13,13 @@ speakers:
 - Fubin Wu
 ---
 
+* Bill Alert, Former Director of Product Security, Global Privacy and Security Office, Medtronic
 * Julio Auto, Principal Information Security Engineer, Mayo Clinic
 * Andrew (Drew) Bomett, M.S.S.T, CISSP, Product Security Manager, Boston Scientific
 * Debra Bruemmer, CISSP, Manager, Clinical Information Security, Mayo Clinic Office of Information Security
+* Alexander Diekmann, CISA, CISM, Manager Post-Market Cyber Security Services, Roche Diagnostics
 * Stephanie Domas, PE, CEH, Lead Medical Security Engineer, Battelle DeviceSecure Services
+* Kevin Fu, Associate Professorm, Computer Science & Engineering, University of Michigan
 * Denis Foo Kune, Ph.D, Co-Founder, Virta Laboratories, Inc.
 * Dale Nordenberg, MD, Executive Director, Medical Device Innovation, Safety, and Security Consortium (MDISS)
 * Gavin O'Brien, Computer Scientist, NIST
