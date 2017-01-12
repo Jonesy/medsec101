@@ -1,7 +1,7 @@
 ---
 title: Gavin O'Brien
 date: 2016-12-10 20:12:00 Z
-position: 17
+position: 16
 credentials_text: Computer Scientist, NIST
 speaker_image: "/uploads/Gavin_Obrien.jpg"
 is_invited_expert: true

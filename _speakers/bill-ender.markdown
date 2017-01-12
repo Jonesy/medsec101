@@ -2,7 +2,7 @@
 title: Bill Ender
 date: 2016-09-21 03:55:00 Z
 published: false
-position: 10
+position: 9
 credentials_text: "Founder  \nRightBrainCISO"
 speaker_image: "/uploads/Ender_Bill.jpg"
 is_featured: false

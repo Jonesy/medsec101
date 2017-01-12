@@ -1,7 +1,7 @@
 ---
 title: Alexander Diekmann
 date: 2017-01-12 06:18:00 Z
-position: 8
+position: 7
 credentials_text: |-
   CISA
   CISM
