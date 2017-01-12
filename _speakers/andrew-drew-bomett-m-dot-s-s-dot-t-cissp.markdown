@@ -1,7 +1,7 @@
 ---
 title: Andrew (Drew) Bomett, M.S.S.T, CISSP
 date: 2016-09-30 05:36:00 Z
-position: 3
+position: 4
 credentials_text: Product Security Manager, Boston Scientific
 speaker_image: "/uploads/Bomett_Andrew.jpg"
 is_invited_expert: true
