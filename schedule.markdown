@@ -54,8 +54,6 @@ schedule:
       manufacturers:
       - time: 9:00 am - 10:30 am
         presentation: Introduction to Medical Device Security
-      - time: 11:00 am - 11:45 am
-        presentation: How to Set up a Medical Device Security Program for Manufacturers
   - time: 10:30 am - 11:00 am
     break: Coffee Break
   - tracks:
@@ -68,7 +66,7 @@ schedule:
           Organizations
       manufacturers:
       - time: 11:00 am - 11:45 am
-        presentation: Introduction to Medical Device Security
+        presentation: How to Set up a Medical Device Security Program for Manufacturers
       - time: 11:45 pm - 12:30 pm
         presentation: 'Safer, Sooner, Together: A Hippocratic Oath for Connected Medical
           Devices'
