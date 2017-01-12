@@ -28,7 +28,7 @@ schedule:
     time: 11:00 am - 12:00 pm
   - presentation: Meet the Experts Lunch
     time: 12:00 - 1:30 pm
-  - presentation: Cybersecurity Policy for Medical Devices Panel Discussion
+  - presentation: Cybersecurity Policy and Standards for Medical Devices Panel
     time: 1:30 - 3:00 pm
   - presentation: 
     time: 3:00 - 3:30 pm
@@ -52,20 +52,18 @@ schedule:
       - time: 9:00 am - 10:30 am
         presentation: Introduction to Medical Device Security
       manufacturers:
-      - time: 9:00 am - 9:45 am
+      - time: 11:00 am - 11:45 am
         presentation: How to Set up a Medical Device Security Program for Manufacturers
-      - time: 9:45 am - 10:30 am
-        presentation: Security as a Revenue Accelerator
   - time: 10:30 am - 11:00 am
     break: Coffee Break
   - tracks:
       health:
       - time: 11:00 am - 11:45 pm
-        presentation: How to Set Up a Medical Device Security Program for Health Delivery
-          Organizations
-      - time: 11:45 am - 12:30 pm
         presentation: 'Safer, Sooner, Together: A Hippocratic Oath for Connected Medical
           Devices'
+      - time: 11:45 am - 12:30 pm
+        presentation: How to Set Up a Medical Device Security Program for Health Delivery
+          Organizations
       manufacturers:
       - time: 11:00 am - 12:30 pm
         presentation: Introduction to Medical Device Security
