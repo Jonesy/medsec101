@@ -75,9 +75,11 @@ where:'is_invited_expert',true %}
   </div>
   <div class="row">
     {% for speaker in speakers %}
-      {% if speaker.is_invited_expert == false %}
-        {% include speaker.html speaker=speaker %}
-      {% endif %}
+      {% unless speaker.published == false %}
+        {% if speaker.is_invited_expert == false %}
+          {% include speaker.html speaker=speaker %}
+        {% endif %}
+      {% endunless %}
     {% endfor %}
   </div>
   <div class="row">
@@ -87,7 +89,9 @@ where:'is_invited_expert',true %}
   </div>
   <div class="row">
     {% for speaker in experts %}
-      {% include speaker.html speaker=speaker %}
+      {% unless speaker.published == false %}
+        {% include speaker.html speaker=speaker %}
+      {% endunless %}
     {% endfor %}
   </div>
 </div>
